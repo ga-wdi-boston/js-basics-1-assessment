@@ -16,7 +16,11 @@ You should save your answers in this README.md file, except for your answer to q
 
 Please list the JavaScript primitives and give one example of each.
 
-<!-- Replace this comment with your answer -->
+Number; 0,
+String; Statement in single or double quotes
+Boolean; True/False
+Null; null
+Undefined; undefined
 
 ## Question 2
 
@@ -28,7 +32,8 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
-<!-- Replace this comment with your answer -->
+c will evaluate to 7
+the operators are =, and +...the equals sign is showing what the code evaluates to after adding the variables c & d, which is done with the plus sign.
 
 ## Question 3
 
@@ -41,7 +46,8 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- Replace this comment with your answer -->
+x = 3, y = 10
+the variables do not change, but the values do.
 
 ## Question 4
 
@@ -53,7 +59,8 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
-<!-- Replace this comment with your answer -->
+the declared variable weather is the string 'sunny' as shown by the single equals sign.
+in the second expression weather is "sunny" as shown by the triple equals sign known as a strict comparision operator.
 
 ## Question 5
 
