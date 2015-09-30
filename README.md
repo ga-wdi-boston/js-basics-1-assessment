@@ -16,7 +16,12 @@ You should save your answers in this README.md file, except for your answer to q
 
 Please list the JavaScript primitives and give one example of each.
 
-<!-- Replace this comment with your answer -->
+number ex/ 0, NaN, infinity
+string ex/ "What up, dog?"
+boolean ex/ true, false
+null ex/ null
+undefined ex/ undefined
+
 
 ## Question 2
 
@@ -28,7 +33,8 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
-<!-- Replace this comment with your answer -->
+c is 7 at the end
+last line does this: take c which is 5 and add d which is 2 which gets you 7 and store that back into c so c become 7
 
 ## Question 3
 
@@ -41,7 +47,9 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- Replace this comment with your answer -->
+x is 3
+y is 10
+variables didn't change but the values did.  x's value changed from 4 to 3 and y's value changed from 3 to 10
 
 ## Question 4
 
@@ -53,7 +61,11 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
-<!-- Replace this comment with your answer -->
+weather's value is "sunny"
+and the boolean evaluates to true
+var weather; declares variable named weather
+weather = "sunny"; stores string "sunny" in weather
+weather === "sunny"; evaluates to true because it passes the strict equivalance test.
 
 ## Question 5
 
@@ -63,8 +75,8 @@ var ask = require('./ask.js');
 
 var answer = 'not empty';
 
-while (answer !== '' && answer !== 'SeCrEt') {
-  answer = ask("Guess my secret? ");
+while (answer !== '' && answer !== '8') {
+  answer = ask("Guess my number between 1 and 10? ");
 }
 ```
 
