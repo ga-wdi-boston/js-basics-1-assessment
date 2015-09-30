@@ -6,3 +6,6 @@ var answer = 'not empty';
 while (answer !== '' && answer !== 'SeCrEt') {
   answer = ask("Guess my secret? ");
 }
+
+/*I didn't make it this far*/
+
