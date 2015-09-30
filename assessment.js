@@ -3,6 +3,6 @@ var ask = require('./ask.js');
 
 var answer = 'not empty';
 
-while (answer !== '' && answer !== 'SeCrEt') {
-  answer = ask("Guess my secret? ");
+while (answer !== 10) {
+  answer = ask("Guess my secret number?");
 }
