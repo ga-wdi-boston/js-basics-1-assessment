@@ -16,7 +16,12 @@ You should save your answers in this README.md file, except for your answer to q
 
 Please list the JavaScript primitives and give one example of each.
 
-<!-- Replace this comment with your answer -->
+1. Number: eg. 1234
+2. String: eg. 'abcd'
+3. Boolean: eg. true
+4. null: eg. null
+5. undefined: eg. undefined
+
 
 ## Question 2
 
@@ -28,7 +33,7 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
-<!-- Replace this comment with your answer -->
+After the code executes, c is 7. The first operator is '=' which assigns the variable c to the value of c + d. And the second operator is '+' which adds the values of the two variables on either side of it.
 
 ## Question 3
 
@@ -41,7 +46,16 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- Replace this comment with your answer -->
+var x = 4;
+///// x is 4. y is undefined.
+var y = 3;
+/////x is 4. y is 3.
+x = y;
+/////x is 3. y is 3.
+y = 10;
+/////x is 3. y is 10.
+
+The variables are not changing, however, their values are changing.
 
 ## Question 4
 
@@ -53,7 +67,14 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
-<!-- Replace this comment with your answer -->
+var weather;
+undefined. This expression is undefined because you have only declared a variable, but not defined its value yet.
+
+weather = "sunny";
+"sunny". Here we are assigning the value of "sunny" to the variable weather. Not sure why the console returns "sunny" though.
+
+weather === "sunny";
+true. This evaluates to true because the operator === is asking whether the var weather is exactly equal to "sunny", which it is.
 
 ## Question 5
 
