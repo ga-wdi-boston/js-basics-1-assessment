@@ -6,8 +6,8 @@ var ask = require('./ask.js');
 
 var answer = 'not empty';
 
-while (answer !== 9 || answer !== 7 ) {
-  answer = ask('Guess my number! ');
+while (answer '' && answer !== 7 ) {
+  answer = ask('Guess my number! ') - 0;
 }
 
 //ran out of time
