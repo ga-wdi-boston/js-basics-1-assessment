@@ -57,7 +57,7 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
-<!-- Replace this comment with your answer -->
+The value is true, and weather === "sunny"  absolutely has to equal to sunny.
 
 ## Question 5
 
