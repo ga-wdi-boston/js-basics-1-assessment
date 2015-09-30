@@ -72,7 +72,7 @@ var answer = 'not empty';
 
 while (answer !== '' && answer !== 'SeCrEt') {
   answer = ask("Guess my secret? ");
-}
+}git
 ```
 
 Change the code from this question so that it tests for a number betwen 1 and 10 instead of a string.  Save it in the file called `assessment.js`.  You can test the code with `node assessment.js` in your Terminal.
