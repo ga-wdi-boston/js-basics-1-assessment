@@ -61,12 +61,12 @@ What are the values of these expressions?  Explain your answers.
 //We'll learn about require later in the course
 var ask = require('./ask.js');
 
-var count = 0;
+
 var answer = 'not empty';
 
 while (answer !== '' && answer !== 'SeCrEt') {
   answer = ask("Guess my secret? ");
-  count = count + 1;
+
 }
 ```
 
