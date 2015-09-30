@@ -16,7 +16,11 @@ You should save your answers in this README.md file, except for your answer to q
 
 Please list the JavaScript primitives and give one example of each.
 
-<!-- Replace this comment with your answer -->
+Number: any number or floating point num. 1 infinity NaN
+String: a set of characters contained with '' or "". '' "non-empty string"
+boolean: true false
+undefined: variable with no starting value set. undefined
+null: intentionally blank variable. null
 
 ## Question 2
 
@@ -28,7 +32,10 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
-<!-- Replace this comment with your answer -->
+The value of c is 7
+"=" is an assignment operator, it sets the value of c to the result of the expression on the right.
+"+" is addition, it adds the numbers stored in c and d together
+Because addition is higher up in priority (assignment being one of the last things the computer does) c and d are added first, then the result of that is assigned to the variable c.
 
 ## Question 3
 
@@ -41,7 +48,11 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- Replace this comment with your answer -->
+line 1: x === 4
+line 2: y === 3
+line 3: x === 3
+line 4: y === 10
+The variables do not change, their values do.
 
 ## Question 4
 
@@ -53,7 +64,9 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
-<!-- Replace this comment with your answer -->
+The value of weather after the first line is undefined.
+After line 2, the value of weather is "sunny"
+The expression on line 3 results with true.
 
 ## Question 5
 
