@@ -16,7 +16,12 @@ You should save your answers in this README.md file, except for your answer to q
 
 Please list the JavaScript primitives and give one example of each.
 
-<!-- Replace this comment with your answer -->
+The 4 primitives are
+1) number - ex is 67
+2) string - ex is "hello world"
+3) boolean - ex true
+4) null - ex is null
+5) undefined - ex is undefinded
 
 ## Question 2
 
@@ -28,7 +33,7 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
-<!-- Replace this comment with your answer -->
+c = 7. the oporators are read in their order and since there are no higher priority operators such as *, (), /, you read this as c + d and the answer becomes the new value of c.
 
 ## Question 3
 
@@ -41,7 +46,7 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- Replace this comment with your answer -->
+x = 3 and y = 10. The variables do not change as they are just the name of the value but their values change.
 
 ## Question 4
 
@@ -53,7 +58,7 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
-<!-- Replace this comment with your answer -->
+I am unclear of what values are in this question. I know that the 1 = operator means that the varable weather is the string "sunny". the 3 ==== means that the variable weather is strictly eqaul to the string "sunny".
 
 ## Question 5
 
