@@ -16,7 +16,11 @@ You should save your answers in this README.md file, except for your answer to q
 
 Please list the JavaScript primitives and give one example of each.
 
-<!-- Replace this comment with your answer -->
+number: 1, 2, 3, 4
+string: "meng is my hero"
+boolean: true, false
+null: null
+undefined: undefined
 
 ## Question 2
 
@@ -28,7 +32,7 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
-<!-- Replace this comment with your answer -->
+c evaluates 7 after execution. In the last line, js will execute the plus operation on the right side of the equal sign, and get the value 7 to assign back to the variable c.
 
 ## Question 3
 
@@ -41,7 +45,7 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- Replace this comment with your answer -->
+x = 3, y = 10 after execution. variables dont change, only their values change. Line 3 assign the original value of y (3) to x, so x evaluates 3. Then 10 was assigned to y variable in line 4, so y = 10.
 
 ## Question 4
 
@@ -53,7 +57,7 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
-<!-- Replace this comment with your answer -->
+"=" is the assign symbol, so line 2 assign string "sunny" to variable weather. "===" is the strictly equal symbol, it compares the type and value of both sides and returns boolean values true or false. In this case, line 3 evaluates TRUE.
 
 ## Question 5
 
