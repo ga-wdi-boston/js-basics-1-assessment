@@ -16,7 +16,11 @@ You should save your answers in this README.md file, except for your answer to q
 
 Please list the JavaScript primitives and give one example of each.
 
-<!-- Replace this comment with your answer -->
+Number (1, -0)
+Boolean (true, false)
+String ('yo, yoyo')
+Null (null)
+Undefined (Undefined)
 
 ## Question 2
 
@@ -28,7 +32,8 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
-<!-- Replace this comment with your answer -->
+7
+c =(gets, defined as) c +(sum) d
 
 ## Question 3
 
@@ -41,7 +46,9 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- Replace this comment with your answer -->
+x = 3
+y = 10
+The variables do NOT change, but their values DO change.
 
 ## Question 4
 
@@ -53,19 +60,15 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
-<!-- Replace this comment with your answer -->
+First, weather is declared as a variable = undefined.
+Next, for weather = "sunny" (weather is defined with string "sunny").
+Then the final expression asks "is weather equal to sunny?" and
+it evalutes the boolean 'true'.
 
 ## Question 5
 
 ```js
-//We'll learn about require later in the course
-var ask = require('./ask.js');
-
-var answer = 'not empty';
-
-while (answer !== '' && answer !== 'SeCrEt') {
-  answer = ask("Guess my secret? ");
-}
+//cleared
 ```
 
 Change the code from this question so that it tests for a number betwen 1 and 10 instead of a string.  Save it in the file called `assessment.js`.  You can test the code with `node assessment.js` in your Terminal.
