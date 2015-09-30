@@ -16,7 +16,11 @@ You should save your answers in this README.md file, except for your answer to q
 
 Please list the JavaScript primitives and give one example of each.
 
-<!-- Replace this comment with your answer -->
+Number - -0, NaN, Infinity
+String - '', "The non-empty string"
+Boolean - true, false
+null - null
+unefined - undefined
 
 ## Question 2
 
