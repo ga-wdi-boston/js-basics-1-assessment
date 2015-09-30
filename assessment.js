@@ -9,3 +9,5 @@ while (answer !== '6' && answer !== 'SeCrEt') {
     console.log ("that's the number")
   }
 }
+
+(didn't finish)
