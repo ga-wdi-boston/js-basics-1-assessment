@@ -3,6 +3,6 @@ var ask = require('./ask.js');
 
 var answer = null;
 
-while (answer < 1 || answer > 10) {
-  answer = ask("Enter a number between 1 to 10");
+while (answer !== '5') {
+  answer = ask("Guess a number between 1 to 10");
 }
