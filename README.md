@@ -15,8 +15,12 @@ You should save your answers in this README.md file, except for your answer to q
 ## Question 1
 
 Please list the JavaScript primitives and give one example of each.
+Boolean - true false
+Null - one value Null
+Undefined - Undefined value means a var has not yet been initialized
+Number  - 10, 12
+String  - "Mike"
 
-<!-- Replace this comment with your answer -->
 
 ## Question 2
 
@@ -28,7 +32,7 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
-<!-- Replace this comment with your answer -->
+the value of c is 7, the operators are + which adds c and D and = which assigns the result of the addtion to c
 
 ## Question 3
 
@@ -41,7 +45,10 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- Replace this comment with your answer -->
+line 1:   x is first undefined then is set to 4
+line 2:   y is first undefined then is set to 3
+line 3:   x is set to 3
+line 4:   y is set to 10
 
 ## Question 4
 
@@ -53,7 +60,9 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
-<!-- Replace this comment with your answer -->
+line 1: weather is created and set to undefined
+line 2: weather is set to the string "summy"
+line 3: the value of weather is compared to the string "summy",  true is returned
 
 ## Question 5
 
@@ -70,7 +79,7 @@ while (answer !== '' && answer !== 'SeCrEt') {
 
 Change the code from this question so that it tests for a number betwen 1 and 10 instead of a string.  Save it in the file called `assessment.js`.  You can test the code with `node assessment.js` in your Terminal.
 
----
+----
 
 Commit and push your changes.
 
