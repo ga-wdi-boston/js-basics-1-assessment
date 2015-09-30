@@ -16,7 +16,8 @@ You should save your answers in this README.md file, except for your answer to q
 
 Please list the JavaScript primitives and give one example of each.
 
-<!-- Replace this comment with your answer -->
+<!--Number, string, Boolean, Null and undefined. Examples, number: -0, Boolean: true, String: '', null: null, undefined: undefined.-->
+
 
 ## Question 2
 
@@ -28,7 +29,7 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
-<!-- Replace this comment with your answer -->
+<!-- the value of C is 7. the operators in the last line are +, it does addition -->
 
 ## Question 3
 
@@ -40,8 +41,10 @@ y = 10;
 ```
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
-
-<!-- Replace this comment with your answer -->
+ <!-- var x = 4; // x = 4
+var y = 3; // x = 4 y = 4
+x = y; //x = 3 y = 3
+y = 10; // x = 3 y = 10 -->
 
 ## Question 4
 
@@ -53,8 +56,9 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
-<!-- Replace this comment with your answer -->
-
+<!-- var weather;
+weather = "sunny";
+weather === "sunny";
 ## Question 5
 
 ```js
