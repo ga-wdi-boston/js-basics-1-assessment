@@ -32,7 +32,7 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
-<!-- Replace this comment with your answer -->
+After the code executes the value of c = 7. the operators are = and +.
 
 ## Question 3
 
@@ -45,7 +45,7 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- Replace this comment with your answer -->
+x = y you get a value of 3 and  y = 10 you get a value of 10.
 
 ## Question 4
 
