@@ -16,7 +16,11 @@ You should save your answers in this README.md file, except for your answer to q
 
 Please list the JavaScript primitives and give one example of each.
 
-<!-- Replace this comment with your answer -->
+1) number : an example is the number 1
+2) string : an example is "I am a string"
+3) Boolean : these are true and false
+4) null: an example of this is null
+5) undefined : an example of this is undefined
 
 ## Question 2
 
@@ -28,7 +32,7 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
-<!-- Replace this comment with your answer -->
+The value of c is 7 after this code executes. The operators in the final line are the = and the +. The + adds the operands c and d which have just had values assigned. As a result of precedence, the addition is done first. After the addition is done we have c = 7. This is what determines the value of c.
 
 ## Question 3
 
@@ -41,7 +45,7 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- Replace this comment with your answer -->
+after the first line executes, the value of x is 4. After the second line, the value of y is 3. After the third line, the value of x is set to 3. This is a result of operator precedence and the rule that whatever is on the right of the equals sign is evaluated first. So the third line results in x = 3. After the fourth line is run, y now is 10. The variables do not change because x and y are still present. However, the values of the variables do change. x is changed from 4 to 3 and y is changed from 3 to 10 by the time the entire code runs.
 
 ## Question 4
 
@@ -53,7 +57,7 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
-<!-- Replace this comment with your answer -->
+After the variable weather is established in the first line, it's value is set to "sunny" in line two. The single = indicates that the value of "sunny" is being assigned to var weather. When weather is called, it will evaluate to "sunny". If you run the third expression, it will evaluate to true. The three ='s doesn't mean that the variable is being reassigned. It stands for equality. Since weather is set to "sunny", the statement that says weather is equal to "sunny" will return true.
 
 ## Question 5
 
