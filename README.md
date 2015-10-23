@@ -16,7 +16,11 @@ You should save your answers in this README.md file, except for your answer to q
 
 Please list the JavaScript primitives and give one example of each.
 
-<!-- Replace this comment with your answer -->
+Boolean - Truthy
+Strings - "This is a String"
+Numbers - 45
+Undefined - NaN //*note* This is wrong, but I only figured that out while looking something else up.//
+Null - null
 
 ## Question 2
 
@@ -28,7 +32,7 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
-<!-- Replace this comment with your answer -->
+c = 7 . The plus operator (+) adds the variables together
 
 ## Question 3
 
@@ -41,7 +45,11 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- Replace this comment with your answer -->
+x = 4
+y = 3
+x = 4 : y= 4
+y = 10
+The values of the variables change but not the variables themselves.
 
 ## Question 4
 
@@ -53,7 +61,7 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
-<!-- Replace this comment with your answer -->
+weather === "sunny" is a strict assignment.  weather = "sunny" is more loose.
 
 ## Question 5
 
@@ -63,7 +71,7 @@ var ask = require('./ask.js');
 
 var answer = 'not empty';
 
-while (answer !== '' && answer !== 'SeCrEt') {
+while (answer !== (1<10)) {
   answer = ask("Guess my secret? ");
 }
 ```
