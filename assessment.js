@@ -1,8 +1,10 @@
-//We'll learn about require later in the course
-var ask = require('./ask.js');
+// //We'll learn about require later in the course
+// var ask = require('./ask.js');
 
-var answer = x;
+var answer = 'not empty';
 
-while (answer == (x>1 && x<10) {
+while (answer > 1 && answer < 10) {
   answer = ask("Guess my secret? ");
 }
+
+
