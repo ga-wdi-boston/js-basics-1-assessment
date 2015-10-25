@@ -16,7 +16,15 @@ You should save your answers in this README.md file, except for your answer to q
 
 Please list the JavaScript primitives and give one example of each.
 
-<!-- Replace this comment with your answer -->
+
+
+
+<!--
+ Number : 1
+String : "Bunny" <not an empty string>
+Boolean: True
+Null: Null
+Undefined: Undefined-->
 
 ## Question 2
 
@@ -28,7 +36,7 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
-<!-- Replace this comment with your answer -->
+<!-- Answer 7   Operator '+' is a numeric conversion and '=' is the assignment operator '+' > '='-->
 
 ## Question 3
 
@@ -41,7 +49,8 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- Replace this comment with your answer -->
+
+----made my answers more specific<!-- More specific answer:  On line 44, x = 4, On line 45, y = 3, On line 46 x = 3 because y = 3, line 47, y= 10 because values are assigned right to left.-->
 
 ## Question 4
 
@@ -53,7 +62,7 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
-<!-- Replace this comment with your answer -->
+----changed this<!-- In line 58, = creates a variable called weather =  In line 59, weather === sunny is an absolute value for the variable weather, and would either evaluate to true or false. -->
 
 ## Question 5
 
@@ -61,14 +70,19 @@ What are the values of these expressions?  Explain your answers.
 //We'll learn about require later in the course
 var ask = require('./ask.js');
 
-var answer = 'not empty';
+--------var answer = 'not empty'; -------- //Not empty is confusing here because not empty is represented by!== '' on the next line.
 
+
+ Maybe something like, var answer = 'no guesses yet', or 'where a guess will go" would make the problem clearer for a newbie.
+
+//This is saying, when the string isn't empty, or no guesses have been made and the information in the string isn't the seCrEt answer, keep asking for a guess.
 while (answer !== '' && answer !== 'SeCrEt') {
   answer = ask("Guess my secret? ");
 }
 ```
 
-Change the code from this question so that it tests for a number betwen 1 and 10 instead of a string.  Save it in the file called `assessment.js`.  You can test the code with `node assessment.js` in your Terminal.
+Change the code from this question so that it tests for a number betwen 1 and 10 instead of a string,----you could also add a string called 'SeCrEt', because the var answer ='empty string' makes it hard to understand what to change.  It makes be think, 'oh, 'empty string' must be the part I need to change, because it has the word string in it.
+------- Save it in the file called `assessment.js`.  You can test the code with `node assessment.js` in your Terminal.
 
 ---
 
