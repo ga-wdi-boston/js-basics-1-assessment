@@ -58,7 +58,12 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
-I am unclear of what values are in this question. I know that the 1 = operator means that the varable weather is the string "sunny". the 3 ==== means that the variable weather is strictly eqaul to the string "sunny".
+var weather; - this will read as undifined on its own because it has no value assigned to it at this point.
+
+weather = "sunny"; - the value of this is the string "sunny" because the string is on the right on 1 equal sign.
+
+weather === "sunny"; - 3 equal signs mean strict equality. it will come back as true because it is being read after weather = "sunny" where the original assignment occured.
+
 
 ## Question 5
 
