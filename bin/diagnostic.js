@@ -6,8 +6,8 @@ var answer = 'not empty';
 
 while (answer !== '') {
   answer = ask("Guess my secret? ");
-  if (answer === 'SeCrEt') {
-   console.log("You guessed it!");
+  if (answer === (>1 || <10)) {
+   console.log('Please guess a number between 1 and 10');
    break;
   }
 }
