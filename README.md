@@ -18,7 +18,11 @@ Assume all code executes in strict mode.
 
 Please list the JavaScript primitives and give one example of each.
 
-<!-- Replace this comment with your answer -->
+Number = 1
+String = 'Nick'
+bool = true
+null = null
+undefined = undefined
 
 ## Question 2
 
@@ -30,7 +34,8 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
-<!-- Replace this comment with your answer -->
+c = 7, the + sign adds the the contents of variable c to the contents of
+variable d. The = sign assigns c the value of c + d.
 
 ## Question 3
 
@@ -43,7 +48,10 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- Replace this comment with your answer -->
+1st line -- x = y; x is assigned the value held by y.  X = 3;
+2nd line -- y = 10; y is assigned the value 10;
+  variable are now equal to x = 3, y = 10;
+  variables are the same, their values have changed.
 
 ## Question 4
 
@@ -55,7 +63,9 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
-<!-- Replace this comment with your answer -->
+The string 'sunny' is assigned to the variable weather.
+the === is checking to see if the value of weather is equal to the string
+  'sunny';  this expression is true.
 
 ## Question 5
 
