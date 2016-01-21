@@ -6,7 +6,8 @@ var answer = '8';
 var guess = 0;
 
 while (answer !== guess) {
-  guess = ask("Guess my secret? "); 
+  guess = ask("Guess my secret? ");
+  if (guess >=10 || guess <= 1) {
    console.log("The answer needs to be between 1 and 10");
   }
   else if (guess === answer) {
