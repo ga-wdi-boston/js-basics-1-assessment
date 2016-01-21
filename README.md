@@ -18,7 +18,11 @@ Assume all code executes in strict mode.
 
 Please list the JavaScript primitives and give one example of each.
 
-<!-- Replace this comment with your answer -->
+let String = 'Jason'
+let Integer = 2;
+let Boolean =  true;
+let undefined = undefined;
+let null = '';
 
 ## Question 2
 
@@ -30,7 +34,10 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
-<!-- Replace this comment with your answer -->
+value of c is 7.
+The operators in the program are + and =.  The + evaluates values or variables from left to right.  It can either be a unary or binary operator.  It can either add numbers together, or concatenate strings together or convert the other operator into a string.
+
+The = operator evaluates from right to left and is an assignment operator.  It assigns values to objects or variables.
 
 ## Question 3
 
@@ -43,7 +50,7 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- Replace this comment with your answer -->
+At the end of the code, x's value will technically be equal to 10 because it is assigned to the variable y and y's value was changed to 10.
 
 ## Question 4
 
@@ -55,7 +62,9 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
-<!-- Replace this comment with your answer -->
+`weather = "sunny";` is setting the variable weather to the string "sunny".
+`weather === "sunny"` is strictly comparing the value of weather with the string "sunny".
+the result will be true.
 
 ## Question 5
 
@@ -66,10 +75,15 @@ const ask = require('../lib/ask.js');
 let answer = 'not empty';
 
 while (answer !== '') {
-  answer = ask("Guess my secret? ");
-  if (answer === 'SeCrEt') {
+  answer = ask("I chose a number between 1 and 10, what is it? ");
+  if (answer === 2) {
    console.log("You guessed it!");
    break;
+  }
+
+  else if (answer < 1 && answer > 10) {
+    console.log("Sorry your answer is not between 1 and 10.")
+    break;
   }
 }
 ```
