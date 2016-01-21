@@ -17,8 +17,11 @@ Assume all code executes in strict mode.
 ## Question 1
 
 Please list the JavaScript primitives and give one example of each.
-
-<!-- Replace this comment with your answer -->
+Number    | -0, NaN, Infinity
+String    | ', "The non-empty string."
+Boolean   | true, false
+null      | null
+undefined | undefined
 
 ## Question 2
 
@@ -29,8 +32,10 @@ c = c + d;
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
+c evaluates to 7 in "c= c+d"
+c+d has an addition operator, which adds the assigned values of let c (5) and
+let d (2), so the final c will evaluate to 7 after adding them.
 
-<!-- Replace this comment with your answer -->
 
 ## Question 3
 
@@ -42,8 +47,9 @@ y = 10;
 ```
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
-
-<!-- Replace this comment with your answer -->
+Final value of x is 3, which changed from 4 because the 3rd line assigned equal values of
+x and y, y had evaluated to 3. Final value of y is 10 because the last line assigned
+new value of 10 to y.
 
 ## Question 4
 
@@ -54,8 +60,14 @@ weather === "sunny";
 ```
 
 What are the values of these expressions?  Explain your answers.
+weather = "sunny";
+> "sunny"
+The answer is above because the expression evaluates whatever the right of = is.
 
-<!-- Replace this comment with your answer -->
+weather === "sunny";
+> true
+The answer is boolean value of true because the expression before that evaluates
+to "sunny" and it's identical to that value.
 
 ## Question 5
 
@@ -73,6 +85,8 @@ while (answer !== '') {
   }
 }
 ```
+I didn't complete.
+
 
 Change the code from this question so that it tests for a number of your choice between 1 and 10 instead of the string `'SeCrEt'`.  If `answer` isn't >= 1 and <= 10, use `console.log` to display a message saying that the guess needs to be between 1 and 10.  Save your code in the file called `bin/diagnostic.js`.  You can test the code with `node bin/diagnostic.js` in your Terminal.
 
