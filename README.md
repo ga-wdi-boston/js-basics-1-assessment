@@ -18,7 +18,11 @@ Assume all code executes in strict mode.
 
 Please list the JavaScript primitives and give one example of each.
 
-<!-- Replace this comment with your answer -->
+numbers : 23
+strings : 'this is my answer'
+boolean : true
+null
+undefined
 
 ## Question 2
 
@@ -30,7 +34,15 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
-<!-- Replace this comment with your answer -->
+<!--
+c = 5;  // assigned c with a value of 5
+d = 2;  // assigned d with a value of 2
+c = c + d; //reassigned c with the sum of the value of c and d.
+operators are + and =
+addition goes from left to right but = goes from right to left
+ ===> c = 2 + 5;
+result in c = 7;
+ -->
 
 ## Question 3
 
@@ -43,7 +55,14 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- Replace this comment with your answer -->
+<!--
+let x = 4;  // declare and assign x with a value of 4
+let y = 3;  // declare and assign y with a value of 3
+x = y;      // reassign x with the value of y (which is 3), so x will be 3
+y = 10;
+// reassign y with the value of 10, but x will still have the value of 3.
+final : => x = 3; y = 10;
+ -->
 
 ## Question 4
 
@@ -55,7 +74,12 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
-<!-- Replace this comment with your answer -->
+<!--
+let weather;                // declare value weather
+weather = "sunny";          // assigned weather with a value of "sunny"
+weather === "sunny";        /* check is weather strictly equal to the
+ string of "sunny", which would be true */
+ -->
 
 ## Question 5
 
