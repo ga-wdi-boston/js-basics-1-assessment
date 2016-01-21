@@ -18,7 +18,8 @@ Assume all code executes in strict mode.
 
 Please list the JavaScript primitives and give one example of each.
 
-<!-- Replace this comment with your answer -->
+ES5 has 5 they are as folows number (2), string ('I love dogs'), fourth thing , fifth thing.
+ES6 added symbols.
 
 ## Question 2
 
@@ -30,7 +31,8 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
-<!-- Replace this comment with your answer -->
+Value of c is 7.
+= is equality , + is addition
 
 ## Question 3
 
@@ -43,7 +45,11 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- Replace this comment with your answer -->
+line 1: x = 4; //stays the same
+line 2: y = 3; //stays the same
+line 3: x = 3; // x is equal to y. y is equal to 3. Now x = 3
+line 4: y = 10; // y is altered to 10 because y equals 10.
+//I hope that was clear.
 
 ## Question 4
 
@@ -55,7 +61,9 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
-<!-- Replace this comment with your answer -->
+line 1: The Value of weather is "sunny";
+line 2: true
+
 
 ## Question 5
 
