@@ -2,12 +2,18 @@
 //We'll learn about require later in the course
 const ask = require('../lib/ask.js');
 
-var answer = 'not empty';
+let answer;
 
-while (answer !== '') {
+while (answer !== 5) {
   answer = ask("Guess my secret? ");
-  if (answer === 'SeCrEt') {
-   console.log("You guessed it!");
-   break;
+  if (answer <1 || >10) {
+   console.log("Enter a number from 1-10:");
+
+  }
+  else(answer === 5) {
+    console.log("You guess it!");
+    break;
+  }
+
   }
 }
