@@ -10,19 +10,18 @@
 
 const ask = require('../lib/ask.js');
 
-var answer = 5;
+var answer = 7;
 var prompt = 0;
 
 while (prompt !== answer) {
-  if (prompt == answer) {
-    // for some reason, if i use if(prompt === answer), this never evaluates
-    // to true. why is that? thanks!
+  prompt = Number(ask("Guess my number: "));
+  if (prompt === answer) {
    console.log("You guessed it!");
    break;
   } else if(prompt < 1 || prompt > 10){
    console.log("Pick a number between 1-10");
   } else {
    console.log("Guess again");
- }
- prompt = ask("Guess my number: ");
+ };
+
 };
