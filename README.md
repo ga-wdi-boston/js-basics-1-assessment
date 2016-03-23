@@ -18,6 +18,12 @@ Assume all code executes in strict mode.
 
 Please list the JavaScript primitives and give one example of each.
 
+Undefined  Example: declaring "let variable" without assigning a value
+Null  Example: let variable = null
+Boolean  Example: let variable = true
+String  Example: let variable = "Jenny was totally wasted at the family reunion"
+Number  Example: let variable = 7
+
 ## Question 2
 
 ```js
@@ -28,6 +34,8 @@ c = c + d;
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
+
+The value of c will be 7.  The operators are "=", the assignment operator, which assigns a value and "+", the binary addition operator, which is adding the two variables.
 
 
 ## Question 3
@@ -40,8 +48,8 @@ y = 10;
 ```
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
+After line 1 the value of x is 4.  After line 2 the value of y is 3.  After line 3 the value of both x and y are 3.  On the last line the value of y is 10.  When all the lines are done executing, the value of x is 3 and the value of y is 10.
 
-<!-- solution below -->
 
 
 ## Question 4
@@ -54,6 +62,9 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
+weather = "sunny" is assigning the variable weather the value of "sunny".
+weather === "sunny" is comparing the value and type.  This will evaluate to false.
+
 
 ## Question 5
 
@@ -61,12 +72,12 @@ What are the values of these expressions?  Explain your answers.
 //We'll learn about require later in the course
 const ask = require('../lib/ask.js');
 
-let answer = 'not empty';
+let answer = x;
 
-while (answer !== '') {
-  answer = ask("Guess my secret? ");
-  if (answer === 'SeCrEt') {
-   console.log("You guessed it!");
+while  {
+  x = ask
+  if (x !=> 1; x !<= 10; x++) {
+   console.log("You need to submit a number between 1 and 10");
    break;
   }
 }
