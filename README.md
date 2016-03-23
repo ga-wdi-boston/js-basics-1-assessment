@@ -18,6 +18,12 @@ Assume all code executes in strict mode.
 
 Please list the JavaScript primitives and give one example of each.
 
+Boolean: true
+Number: 3
+String: 'this is a string'
+Null: null
+Undefined: undefined
+
 ## Question 2
 
 ```js
@@ -28,6 +34,8 @@ c = c + d;
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
+
+After the code executes, the value of c is 7. In 'c = c + d;' you are redefining the value of c, which is the sum of the variables 5 and d as previously defined.
 
 
 ## Question 3
@@ -41,7 +49,9 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- solution below -->
+x is 3
+y is 10
+The variables (x and y) do not change, but their values do.
 
 
 ## Question 4
@@ -54,6 +64,9 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
+'let weather;' is declaring 'weather' as a variable.
+'weather = "sunny"' is setting the value of the variable 'weather' to "sunny"
+'weather === "sunny"' is checking the truthiness of a statement. It is true. 
 
 ## Question 5
 
