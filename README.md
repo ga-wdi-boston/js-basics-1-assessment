@@ -18,6 +18,12 @@ Assume all code executes in strict mode.
 
 Please list the JavaScript primitives and give one example of each.
 
+Number - 1, NaN
+String - 'this is a string'
+Boolean - true
+null - null
+undefined - undefined
+
 ## Question 2
 
 ```js
@@ -29,6 +35,11 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
+c === 7
+
+= is an assignment operator. Here it is assigning c + d to c
+
+< + >is an addition operator it is adding c and d (5, 2)
 
 ## Question 3
 
@@ -40,7 +51,10 @@ y = 10;
 ```
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
+x === 3
+y === 10
 
+both variables change their values. x is still x, y is still x but y x has changed to a value of 3 and and then y changes to a value of ten.
 <!-- solution below -->
 
 
@@ -53,7 +67,9 @@ weather === "sunny";
 ```
 
 What are the values of these expressions?  Explain your answers.
-
+1 declares the variable weather
+2 assigns the string "sunny" to weather
+3 evaluates whether weather (yeesh) is absoluutely (or strictly) equal to "sunny" using a boolean. It evalutes to true. The weather is "sunny"
 
 ## Question 5
 
