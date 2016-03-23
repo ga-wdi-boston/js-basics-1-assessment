@@ -16,7 +16,12 @@ Assume all code executes in strict mode.
 
 ## Question 1
 
-Please list the JavaScript primitives and give one example of each.
+Boolean - "true or false"
+Null - "can't be defined"
+Undefined - "not defined"
+Number - 1
+String = "abs"
+Symbol (new in ECMAScript 6) - don't know
 
 ## Question 2
 
@@ -28,6 +33,10 @@ c = c + d;
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
+
+c is 7
+
+the operators are variables that store numbers
 
 
 ## Question 3
@@ -43,6 +52,7 @@ After each line of code executes, what are the values of x and y?  Do the variab
 
 <!-- solution below -->
 
+yes, x is 3 and y is 10  the variables are re-assigned.
 
 ## Question 4
 
