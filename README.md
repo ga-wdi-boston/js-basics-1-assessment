@@ -18,6 +18,12 @@ Assume all code executes in strict mode.
 
 Please list the JavaScript primitives and give one example of each.
 
+string "string"
+number 45
+null
+boolean true
+undefined
+
 ## Question 2
 
 ```js
@@ -28,6 +34,9 @@ c = c + d;
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
+
+c = 7.
+C = c + d --change the value of c to the sum of c(5) + d(2)
 
 
 ## Question 3
@@ -41,7 +50,10 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- solution below -->
+x = 4
+y = 10
+
+The variables do not change, but because of the cascade order, x's value is reassigned to y's original value (4) and y's value is reassigned to 10.
 
 
 ## Question 4
@@ -53,7 +65,8 @@ weather === "sunny";
 ```
 
 What are the values of these expressions?  Explain your answers.
-
+weather = "sunny" --reassigns weather to "sunny";
+weather ==="sunny" --returns true because of the above assignment
 
 ## Question 5
 
