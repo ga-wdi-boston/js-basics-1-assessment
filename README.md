@@ -18,6 +18,12 @@ Assume all code executes in strict mode.
 
 Please list the JavaScript primitives and give one example of each.
 
+string: 'car'
+boolean: true
+number: 1
+null: null
+undefined: undefined, e.g., results from declaring a variable and not assigning anything to it
+
 ## Question 2
 
 ```js
@@ -29,31 +35,45 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
+c equals 7
+'=' is the assignment operator that assigns a value on the right hand side of the synble to a variable on the left.
+"+" is the addition operator that adds numbers or concatenates strings.
+All of the operators are binary operators.
 
 ## Question 3
 
 ```js
-let x = 4;
-let y = 3;
-x = y;
-y = 10;
+let x = 4; //line 1
+let y = 3; //line 2
+x = y;     //line 3
+y = 10;    //line 4
 ```
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- solution below -->
+Please refer to line numbering system above.
 
+line 1: x equals 4, y has not been declared
+line 2: x equals 4, y equals 3
+line 3: x equals 3, y equals 3
+line 4: x equals 3, y equals 10
 
 ## Question 4
 
 ```js
-let weather;
-weather = "sunny";
-weather === "sunny";
+let weather;          //line 1
+weather = "sunny";    //line 2
+weather === "sunny";  //line 3
 ```
 
 What are the values of these expressions?  Explain your answers.
 
+Please refer to above line numbers in code comments.
+
+line 1: weather variable is declared and is undefined
+line 2: weather variable is assigned value of "sunny", a string.
+line 3: returns true since weather is a string and has a value of "sunny", which
+        is equivalent to the string "sunny".
 
 ## Question 5
 
