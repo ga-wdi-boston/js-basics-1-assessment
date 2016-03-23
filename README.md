@@ -62,7 +62,11 @@ weather = "sunny";
 weather === "sunny";
 ```
 
-What are the values of these expressions?  Explain your answers.
+What are the values of these expressions?  Explain your answers.\
+
+weather is Undefined. you can define it later.
+the string sunny is assigned to weather.
+the string sunny equals weather.  it's only true if x === "sunny" and x === weather
 
 
 ## Question 5
@@ -75,8 +79,10 @@ let answer = 'not empty';
 
 while (answer !== '') {
   answer = ask("Guess my secret? ");
-  if (answer === 'SeCrEt') {
-   console.log("You guessed it!");
+  if (answer =! >= 1 &&  answer =! <= 10) {
+   console.log("guess needs to be between 1 and 10");}
+   else {
+     console.log("You guessed it!");}
    break;
   }
 }
