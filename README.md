@@ -16,7 +16,12 @@ Assume all code executes in strict mode.
 
 ## Question 1
 
-Please list the JavaScript primitives and give one example of each.
+Boolean - "true or false"
+Null - "can't be defined"
+Undefined - "not defined"
+Number - 1
+String = "abs"
+Symbol (new in ECMAScript 6) - don't know
 
 ## Question 2
 
@@ -28,6 +33,10 @@ c = c + d;
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
+
+c is 7
+
+the operators are variables that store numbers
 
 
 ## Question 3
@@ -43,6 +52,7 @@ After each line of code executes, what are the values of x and y?  Do the variab
 
 <!-- solution below -->
 
+yes, x is 3 and y is 10  the variables are re-assigned.
 
 ## Question 4
 
@@ -52,7 +62,11 @@ weather = "sunny";
 weather === "sunny";
 ```
 
-What are the values of these expressions?  Explain your answers.
+What are the values of these expressions?  Explain your answers.\
+
+weather is Undefined. you can define it later.
+the string sunny is assigned to weather.
+the string sunny equals weather.  it's only true if x === "sunny" and x === weather
 
 
 ## Question 5
@@ -65,8 +79,10 @@ let answer = 'not empty';
 
 while (answer !== '') {
   answer = ask("Guess my secret? ");
-  if (answer === 'SeCrEt') {
-   console.log("You guessed it!");
+  if (answer =! >= 1 &&  answer =! <= 10) {
+   console.log("guess needs to be between 1 and 10");}
+   else {
+     console.log("You guessed it!");}
    break;
   }
 }
