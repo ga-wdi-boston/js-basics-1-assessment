@@ -66,6 +66,14 @@ Do the variables change?
 Do their values?
 
 <!-- solution below -->
+After the first line we have just `x` which is equal to 4.
+After the second line we have `x` still equal to 4 and `y` equal to 3.
+After the third line we have `x` and `y` both equal to 3.
+After the fourth line we have `x` still equal to 3 and `y` now equal to 10.
+The variables are the same throughout, but the values assigned to them change
+as shown.
+
+
 
 ## Question 4
 
