@@ -52,8 +52,10 @@ After each line of code executes, what are the values of x and y?  Do the variab
 <!-- solution below -->
 First line x gets assigned 4.
 Than y gets assigned 3.
-After that x gets assigned whatever y was- so x is not 3.
+After that x gets assigned whatever y was- so x is now 3.
+After that y gets assigned to 10.
 
+Now x = 3 and y = 10.
 
 ## Question 4
 
@@ -64,6 +66,8 @@ weather === "sunny";
 ```
 
 What are the values of these expressions?  Explain your answers.
+
+The value is "sunny" from the first line, the second line is just a comparison to see is let weather is strictly the string "sunny".
 
 
 ## Question 5
