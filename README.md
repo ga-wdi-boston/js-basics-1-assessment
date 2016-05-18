@@ -18,17 +18,24 @@ Assume all code executes in strict mode.
 
 Please list the JavaScript primitives and give one example of each.
 
+string = 'the ultimate question'
+number  = 42
+boolean = true/false
+undefined =
+null =
+
 ## Question 2
 
 ```js
 let c = 5;
 let d = 2;
 c = c + d;
-
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
+the c to the right of the assignment operator will be 5, and d has been assigned
+the value 2, so 2+5=7, and now c is reassigned to the value of 7.
 
 ## Question 3
 
@@ -42,7 +49,7 @@ y = 10;
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
 <!-- solution below -->
-
+after line 45, x = 3, and after line 46, y = 10. The variables do not change but their values do.
 
 ## Question 4
 
