@@ -4,13 +4,14 @@
 const ask = require('../lib/ask.js');
 
 let answer = 'not empty';
+let myAnswer = '5';
 
 while (answer !== '') {
-  answer = ask("Guess my secret? ");
-  if (answer === 5) {
+  let Youranswer = ask("Guess my secret? ");
+  if (Youranswer === myAnswer) {
    console.log("You guessed it!");
    break;
- }else if(answer > 10 || answer < 1){
+ }else if(Youranswer > 10 || Youranswer < 1){
    console.log("You guessed it!");
  }
 }
