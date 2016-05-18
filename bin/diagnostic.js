@@ -6,12 +6,12 @@ const ask = require('../lib/ask.js');
 let answer = 'not empty';
 let myAnswer = '5';
 
-while (answer !== '') {
+while (answer != myAnswer) {
   let Youranswer = ask("Guess my secret? ");
-  if (Youranswer === myAnswer) {
+  if (Youranswer == myAnswer) {
    console.log("You guessed it!");
    break;
  }else if(Youranswer > 10 || Youranswer < 1){
-   console.log("You guessed it!");
+   console.log("You must guess between 1 and 10!");
  }
 }
