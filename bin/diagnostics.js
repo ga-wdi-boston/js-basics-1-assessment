@@ -10,9 +10,14 @@ const ask = require('../lib/ask.js');
 let answer = 'not empty';
 
 while (answer !== '') {
-  answer = ask("Guess my secret? ");
-  if (answer === 'SeCrEt') {
+  answer = ask("Guess my number between 1 and 10 ");
+
+  if (answer)
+
+  else if (answer === '6') {
    console.log("You guessed it!");
    break;
   }
 }
+
+// I didnt finish - obviously :)
