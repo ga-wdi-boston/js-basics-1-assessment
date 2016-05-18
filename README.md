@@ -18,6 +18,14 @@ Assume all code executes in strict mode.
 
 Please list the JavaScript primitives and give one example of each.
 
+boolean: true
+string: "Shireen"
+undefined:
+  myArray = [1,2,3];
+  myArray[5]=undefined
+number: 23
+null: null +1=1
+
 ## Question 2
 
 ```js
@@ -29,6 +37,12 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
+(let c=5) stores the number 5 in variable c;
+(let d=2) stores the number 2 in variable d;
+(c=c+d) updates the value of c to be the sum of the value stored in c + value stored in d
+the assignment statement ( = ) reads from right to left.
+
+c = 7 at end
 
 ## Question 3
 
@@ -42,7 +56,12 @@ y = 10;
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
 <!-- solution below -->
+line 1: x = 4; y = undefined;
+line 2: x = 4, y = 3;
+line 3: x = y = 3
+line 4: x= y = 10;
 
+variables dont change but their valued do change
 
 ## Question 4
 
@@ -54,6 +73,10 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
+weather = "sunny" (value stored in weather is the string "sunny")
+  assignment = used to assign value to weather
+weather === "sunny" (true; ). === is checking to see if the value of "sunny" stored
+  in weather is exactly equal to "sunny". which it is.
 
 ## Question 5
 
