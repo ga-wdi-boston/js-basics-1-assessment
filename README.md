@@ -98,7 +98,7 @@ let answer = 'not empty';
 while (answer !== '') {
   answer = ask("Guess my secret? ");
   if (answer === 'SeCrEt') {
-   console.log("You guessed it!");
+   console.log("Must guess between 1 and 10");
    break;
   }
 }
