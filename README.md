@@ -16,7 +16,12 @@ Assume all code executes in strict mode.
 
 ## Question 1
 
-Please list the JavaScript primitives and give one example of each.
+5 Primitives:
+ - Number;
+ - Boolean;
+ - String;
+ - Undefined;
+ - Null;
 
 ## Question 2
 
@@ -29,6 +34,9 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
+c = 7
+The assignment (=) operator evaluates from right to left and assigns whatever is on the right side of the equal sign to what is on the left.
+The addition (+) operator adds numeric values and concatenates strings.
 
 ## Question 3
 
@@ -41,7 +49,8 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- solution below -->
+The variables do not change, however, their values do. x is assigned the value of y, which is 3,
+and then y is then assigned a value of 10.
 
 
 ## Question 4
@@ -54,6 +63,11 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
+weather has been assigned the string of "sunny"; thus when weather is called the
+variable will return "sunny".
+The second expression will evaluate to true. The strict equality operator will
+a boolean value and because both sides of the equality are true, the expression is
+true.
 
 ## Question 5
 
