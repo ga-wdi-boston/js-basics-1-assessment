@@ -45,7 +45,7 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- solution below -->
+they both equal 10. their values change
 
 
 ## Question 4
@@ -58,6 +58,8 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
+weather is strictly equal to sunny because of ===
+
 
 ## Question 5
 
@@ -69,8 +71,8 @@ let answer = 'not empty';
 
 while (answer !== '') {
   answer = ask("Guess my secret? ");
-  if (answer === 'SeCrEt') {
-   console.log("You guessed it!");
+  if (answer >= 1 && <= 10) {
+   console.log("Your guess needs to be between 1 and 10");
    break;
   }
 }
