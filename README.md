@@ -18,6 +18,12 @@ Assume all code executes in strict mode.
 
 Please list the JavaScript primitives and give one example of each.
 
+number: 1
+string: 'Jon J'
+booloean: true
+null: null
+undefined: undefined
+
 ## Question 2
 
 ```js
