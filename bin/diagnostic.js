@@ -12,7 +12,7 @@ while (answer !== 5) {
  if(answer > 10) {
    console.log("your guess has to be a number between 1-10.")
  }
- if (answer === 5) {
+ if (answer == 5) {
   console.log("You guessed it!");
   break;
 }
