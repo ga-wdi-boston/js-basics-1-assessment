@@ -42,6 +42,15 @@ After this code executes, what is the value of c?
 Please identify the operators in the last line of this program `c = c + d;`
 and explain what they do.
 
+After this code executes the value of c is 7.
+
+In the last line, we have the assignment operator `=`, which assigns the value
+of the expression on the right to the variable on the left and returns that
+value. Inside the expression on the right we just have `+` addition, which
+adds the values of `c` and `d` before assigning that to the variable on the
+left of the assignment operator.
+
+
 ## Question 3
 
 ```js
