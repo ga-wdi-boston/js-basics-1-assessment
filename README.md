@@ -35,6 +35,8 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
+final value of c is 7. = is an assignment operator that gives the c on the right side the value of the expression on the left side. + adds the value of c and d
+on the left side of = .
 
 ## Question 3
 
@@ -48,7 +50,10 @@ y = 10;
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
 <!-- solution below -->
-
+1st line : x is 4
+2nd line : y is 3
+3rd line : x changes to 3, y stays 3
+4th line : x unaffected (stays 3), y changes to 10;
 
 ## Question 4
 
@@ -59,6 +64,10 @@ weather === "sunny";
 ```
 
 What are the values of these expressions?  Explain your answers.
+
+weather = "sunny" assigns the string "sunny" to the declared variable weather.
+weather === "sunny" is a comparator operator that checks whether weather is
+stricly equal to "sunny", retruning false.
 
 
 ## Question 5
