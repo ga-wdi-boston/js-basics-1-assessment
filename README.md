@@ -67,10 +67,13 @@ let answer = 'not empty';
 
 while (answer !== '') {
   answer = ask("Guess my secret? ");
-  if (answer === 'SeCrEt') {
+  if (answer === '7') {
    console.log("You guessed it!");
    break;
-  }
+ } else if (answer !== >=1 && <=10){
+   console.log("Pick a number between 1 and 10")
+
+ }
 }
 ```
 
