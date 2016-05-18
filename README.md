@@ -16,7 +16,12 @@ Assume all code executes in strict mode.
 
 ## Question 1
 
-Please list the JavaScript primitives and give one example of each.
+null: let aNullThing = null;
+undefined: let someVariable = undefined;
+boolean: let aTruthyThing = true;
+string: let aStringyThing = 'Oh look a string!';
+number: let aCountyThing = 7;
+
 
 ## Question 2
 
@@ -28,6 +33,7 @@ c = c + d;
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
+c is 7. the = sign is the assignment operator, the + sign in this instance is addition.
 
 
 ## Question 3
@@ -39,9 +45,13 @@ x = y;
 y = 10;
 ```
 
-After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
-
 <!-- solution below -->
+After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
+line 42: x is 4
+line 43: y is 3
+line 44: x is 3
+line 45: y is 10
+The variables don't change (they are still x and y), but the values do.
 
 
 ## Question 4
@@ -51,8 +61,12 @@ let weather;
 weather = "sunny";
 weather === "sunny";
 ```
-
 What are the values of these expressions?  Explain your answers.
+
+line 60: undefined - the variable has been declared but not defined
+line 61: "sunny" - the variable has been assigned to string "sunny"
+line 62: true - the variable is tested for equality against the string "sunny", which it is equal to, so it resolves to True.
+
 
 
 ## Question 5
