@@ -16,7 +16,7 @@ Assume all code executes in strict mode.
 
 ## Question 1
 
-Please list the JavaScript primitives and give one example of each.
+The five primitives are as follows: numbers {such as 5}, strings {such as 'example'}, Booleans {such as true}, undefined {which is simply an undefined value, such as calling x when no value of x has been given}, and null {which is simply a null response}.
 
 ## Question 2
 
@@ -29,6 +29,7 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
+The value of c after this code executes is 7. The operators are '=' and '+'. The '+' evaluates first and adds the values on either side of it, in this case c and d. The '=' operator evaluates second and sets the value on the left to be the value on the right if/when called again.
 
 ## Question 3
 
@@ -41,7 +42,7 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- solution below -->
+After 'x = y', x = 3 and y = 3. After 'y = 10', x = 3 and y = 10. The variables themselves do not change but their values do.
 
 
 ## Question 4
@@ -54,6 +55,7 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
+Since a single '=' is an assignment, it just means the variable 'weather' has the value "sunny". Thus, the value of 'weather = "sunny"' is 'sunny'. However, the '===' operator is a strict equality and essentially is asking if the element on the left is equal to the element on the right, which can either be true or false. Thus, the value of 'weather === "sunny"' returns 'true' because of the previous expression setting 'weather' equal to "sunny". 
 
 ## Question 5
 
