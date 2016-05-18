@@ -50,7 +50,6 @@ value. Inside the expression on the right we just have `+` addition, which
 adds the values of `c` and `d` before assigning that to the variable on the
 left of the assignment operator.
 
-
 ## Question 3
 
 ```js
@@ -73,8 +72,6 @@ After the fourth line we have `x` still equal to 3 and `y` now equal to 10.
 The variables are the same throughout, but the values assigned to them change
 as shown.
 
-
-
 ## Question 4
 
 ```js
@@ -84,6 +81,11 @@ weather === "sunny";
 ```
 
 What are the values of these expressions?  Explain your answers.
+
+`let weather;` returns an undefined variable "weather".
+`weather = "sunny";` has the value 'sunny', a string, which now `weather` is
+assigned to.
+`weather === "sunny";` returns true because weather has the value 'sunny'.
 
 ## Question 5
 
