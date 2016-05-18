@@ -17,6 +17,7 @@ Assume all code executes in strict mode.
 ## Question 1
 
 Please list the JavaScript primitives and give one example of each.
+Primitives: Number: 2; String: "I am a string"; Boolean: true; null: null; undefined: undefined;
 
 ## Question 2
 
@@ -28,7 +29,7 @@ c = c + d;
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
-
+value of c: 7; last line operator is addition operator, and this line indicate adding c and d and then assign this sum back to c.
 
 ## Question 3
 
@@ -41,7 +42,7 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- solution below -->
+value of x: 3; value of y: 10; those two lines of code change values of x and y variables.
 
 
 ## Question 4
@@ -54,6 +55,7 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
+In second line of code, weather has been assignd new value "sunny"; last line of code is a Boolean expression, which ask whether value of weather is equal to "sunny", and this line of code will return true.
 
 ## Question 5
 
