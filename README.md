@@ -18,6 +18,8 @@ Assume all code executes in strict mode.
 
 Please list the JavaScript primitives and give one example of each.
 
+string-josh, number-2, boolean- true/false, null, undefined-no value, symbol
+
 ## Question 2
 
 ```js
@@ -28,6 +30,8 @@ c = c + d;
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
+
+c= 7. c becomes 5, d becomes 2 and they are added together
 
 
 ## Question 3
