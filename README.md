@@ -60,7 +60,9 @@ weather === "sunny";
 ```
 
 What are the values of these expressions?  Explain your answers.
-
+The value of weather on line 58 is being assigned to "sunny".
+The expression on line 59 evaluates to true, because the value of weather is
+identical to "sunny"
 
 ## Question 5
 
@@ -72,10 +74,12 @@ let answer = 'not empty';
 
 while (answer !== '') {
   answer = ask("Guess my secret? ");
-  if (answer === 'SeCrEt') {
+  if (answer = 4) {
    console.log("You guessed it!");
    break;
-  }
+ } else if (answer < 1 || answer > 10) {
+   console.log("The guess needs to be between 1 and 10")
+ }
 }
 ```
 
