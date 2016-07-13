@@ -8,6 +8,12 @@ Assume all code executes in strict mode.
 ## Question 1
 
 Please list the JavaScript primitives and give one example of each.
+number- 91,2, 45, etc
+string 'this is a string'
+boolean x+5===true;
+null: null
+undefined: undefined
+
 
 ## Question 2
 
@@ -19,7 +25,9 @@ c = c + d;
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
+ c is 7 after the code executes
 
+ the = operator does not mean equals. It is assigning a value by saying that c is the value of the varaiable declared as c plus the variable declared as d.
 
 ## Question 3
 
@@ -32,6 +40,11 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
+Yes. they change
+line 1: x=4
+line 2: x=3
+line 3: x = 3, y=3
+line 4 y = 10
 <!-- solution below -->
 
 
@@ -45,6 +58,9 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
+the value of weather= 'sunny'  is 'sunny'
+the value of weather === 'sunny' is true.
+
 
 ## Question 5
 
@@ -54,10 +70,10 @@ const ask = require('../lib/ask.js');
 
 let answer = 'not empty';
 
-while (answer !== '') {
-  answer = ask("Guess my secret? ");
-  if (answer === 'SeCrEt') {
-   console.log("You guessed it!");
+for (answer = '') {
+  answer = ask("Guess my number, it is between 1 and 10? ");
+  if (answer<=10) {
+     console.log("You guessed it!");
    break;
   }
 }
