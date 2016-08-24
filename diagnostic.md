@@ -9,6 +9,11 @@ Assume all code executes in strict mode.
 
 Please list the JavaScript primitives and give one example of each.
 
+-->number- 20
+string- 'this is a string'
+boolean- false
+null- null
+undefined- undefined
 ## Question 2
 
 ```js
@@ -20,6 +25,7 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
+-->the value of c is 7. the operators are + and =. the + works from right to left to add d to c. the = assigns the value to c.
 
 ## Question 3
 
@@ -32,7 +38,13 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- solution below -->
+-->first line- x = 4
+second line y= 3
+third line y = 3, x = 3
+fourth line y = 10
+
+the variables in the code are always x and y, but their values are being re assigned by the = operator.
+
 
 
 ## Question 4
@@ -45,6 +57,7 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
+-->the values of the expressions are "sunny" and "sunny" because they are assigned to the variable weather
 
 ## Question 5
 
@@ -52,11 +65,13 @@ What are the values of these expressions?  Explain your answers.
 //We'll learn about require later in the course
 const ask = require('../lib/ask.js');
 
-let answer = 'not empty';
+let answer = 'Guess the Number';
 
-while (answer !== '') {
-  answer = ask("Guess my secret? ");
-  if (answer === 'SeCrEt') {
+while (answer >= 4) {
+  answer = ask("Guess the number between 1 and 10!");
+  else while (answer <= 4) {
+    answer = ask("Guess the number between 1 and 10!");
+  if (answer === 4) {
    console.log("You guessed it!");
    break;
   }
