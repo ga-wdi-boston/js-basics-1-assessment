@@ -1,7 +1,12 @@
+'use strict'
 //We'll learn about require later in the course
-var ask = require('./ask.js');
-var i = 1;
+let ask = require('./ask.js');
 
-while (i >= 1 && i <= 10) {
-  console.log(i); i++;
+
+// while (answer !== '' && answer !== 'SeCrEt') {
+//   answer = ask("Guess my secret? ");
+// }
+let answer = 0;
+while (answer !== "" && answer < 10 && answer !==2){
+  answer = ask("Guess what number between 1 and 10 I'm thinking of!");
 }

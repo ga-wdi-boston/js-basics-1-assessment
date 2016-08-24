@@ -15,11 +15,13 @@ You should save your answers in this README.md file, except for your answer to q
 ## Question 1
 
 Please list the JavaScript primitives and give one example of each.
-Number: 42
-String: '42', 'dog', etc.
-boolean: true or false
-null: explicitly omitted value
-undefined: default omitted value
+
+Number: 44
+String: "hello"
+Boolean: true
+Null: null
+Undefined: undefined
+
 
 ## Question 2
 
@@ -30,9 +32,10 @@ c = c + d;
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
-c = c + d
-c = 5, d = 2
-This changes because c = c + d implies that c now evaluates to its previous value, + d. c's new value is 7. c = 7
+c === 7;
+If c === 5 and d === 2, then c on the left side of the expression is being
+reassigned after evaluating c + d. Thus, c + d === 7
+
 
 ## Question 3
 
@@ -44,9 +47,13 @@ y = 10;
 ```
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
+x === 3
+y === 10
 
-x = y means that x's new value is 3 because y's value is 3.
-y = 10 means that y's new value is 10.
+x has been reassigned to y, which === 3. y is then reassigned to 10. x is
+not reassigned again and remains === 3
+
+.
 
 ## Question 4
 
@@ -57,10 +64,10 @@ weather === "sunny";
 ```
 
 What are the values of these expressions?  Explain your answers.
+1) a variable called weather has been declared
+2) the variable weather has been assigned to "sunny"
+3) weather has been evaluated to "sunny" (strict equality)
 
-weather = "sunny"; means that weather is assigned a value of "sunny".
-
-weather === "sunny" means that the variable weather evaluates to "sunny"
 
 ## Question 5
 
@@ -77,9 +84,8 @@ while (answer !== '' && answer !== 'SeCrEt') {
 
 Change the code from this question so that it tests for a number betwen 1 and 10 instead of a string.  Save it in the file called `assessment.js`.  You can test the code with `node assessment.js` in your Terminal.
 
----
+
 
 Commit and push your changes.
 
 Submit a pull request.
-
