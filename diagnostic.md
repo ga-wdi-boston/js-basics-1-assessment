@@ -67,12 +67,12 @@ let answer = 'not empty';
 
 while (answer !== '') {
   answer = ask("Guess my secret? ");
-  if (1 >= answer >= 10) {
+  if (1 <= answer <= 10) {
    console.log("You guessed it!");
    break;
   }
   else {
-    console.log("The guess needs to be between 1 and 10. Sorry, try again!"");
+    console.log("The guess needs to be between 1 and 10. Sorry, try again!");
   }
 }
 ```
