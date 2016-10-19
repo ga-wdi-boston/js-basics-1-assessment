@@ -9,6 +9,12 @@ Assume all code executes in strict mode.
 
 Please list the JavaScript primitives and give one example of each.
 
+primitive : example
+String : 'stuff'
+Number : 4
+boolean : true
+
+
 ## Question 2
 
 ```js
@@ -19,6 +25,9 @@ c = c + d;
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
+
+c=7
+The operator is + and it adds two numbers.
 
 
 ## Question 3
@@ -33,6 +42,22 @@ y = 10;
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
 <!-- solution below -->
+let x = 4;
+x=4
+
+let y = 3;
+y=3
+
+x = y;
+x=3
+y=3
+
+y = 10;
+x=3
+y=10
+
+The values of the variables change, but the variables do not change to the extent of becoming equal to a string.
+
 
 
 ## Question 4
@@ -44,6 +69,18 @@ weather === "sunny";
 ```
 
 What are the values of these expressions?  Explain your answers.
+
+> let weather;
+undefined
+- the expression creats the 'weather' object.
+
+> weather = "sunny";
+'sunny'
+- weather is defined as the string sunny
+
+> weather === "sunny";
+true
+- weather is found to be of the same type of object as 'sunny'
 
 
 ## Question 5
