@@ -7,7 +7,18 @@ Assume all code executes in strict mode.
 
 ## Question 1
 
-Please list the JavaScript primitives and give one example of each.
+String: The String global object is a constructor for strings, or a sequence
+of characters.
+
+Number: The Number JavaScript object is a wrapper object allowing you to work
+with numerical values.
+
+Boolean: The Boolean object is an object wrapper for a boolean value true or
+false
+
+Null: Means null.
+
+Undefined: Means undefined.
 
 ## Question 2
 
@@ -20,7 +31,8 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
-
+7, `c = c + d;` take the values of c and d and add them together giving c a new
+value
 ## Question 3
 
 ```js
@@ -32,7 +44,7 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- solution below -->
+x = 3, y = 10, the variables do not change but there value does.
 
 
 ## Question 4
@@ -45,6 +57,11 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
+weather = "sunny": returns weather as "sunny", weather was assigned "sunny"
+with one equal sign.
+
+weather === "sunny": returns a true statement because it is using three equal
+signs asking if weather is actually equal to "sunny".
 
 ## Question 5
 
