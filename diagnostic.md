@@ -7,7 +7,14 @@ Assume all code executes in strict mode.
 
 ## Question 1
 
-Please list the JavaScript primitives and give one example of each.
+javascript primitives are Number, String, Boolean, Undefined, Null
+
+numnber example: 5
+String example: 'My name is Stanley'
+Boolean: True or False
+undefined: undefined
+Null: Null
+
 
 ## Question 2
 
@@ -20,6 +27,8 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
+The value of c will now equal 7 because "let" indicates that the variable can
+be changed as opposed to "const" which remains constant.
 
 ## Question 3
 
@@ -30,7 +39,8 @@ x = y;
 y = 10;
 ```
 
-After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
+Their variables change after being after given a value. x equals 3 and y equals
+10
 
 <!-- solution below -->
 
@@ -43,7 +53,8 @@ weather = "sunny";
 weather === "sunny";
 ```
 
-What are the values of these expressions?  Explain your answers.
+I tested them in my terminal and got "sunny" after entering the weather equals
+but when I entered weather equals(3x) , I got "true"
 
 
 ## Question 5
