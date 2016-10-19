@@ -11,7 +11,8 @@ while (answer !== 5) {
    console.log("Needs to be between 1-10.");
   }
   else {
-   console.log("You guessed it!");
+   console.log("Wrong!");
    break;
   }
 }
+console.log("You got it!");
