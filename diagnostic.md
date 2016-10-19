@@ -9,6 +9,8 @@ Assume all code executes in strict mode.
 
 Please list the JavaScript primitives and give one example of each.
 
+primitives are data types. example of a javascript parameter is boolean.
+
 ## Question 2
 
 ```js
@@ -20,6 +22,12 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
+c = 7;
+Operators are = and +
+operator '=' assigns the value on the right of the operator to the vale on the
+left of the operator. In this case, it evaluates the value of c + d and
+assigns it to c.
+operator '+' performs addition.
 
 ## Question 3
 
@@ -32,8 +40,8 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- solution below -->
-
+x = 3;
+y = 10;
 
 ## Question 4
 
@@ -45,6 +53,9 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
+let weather; => Declares a variable weather.
+weather = 'sunny' => Assigns a value to the variable weather.
+weather === 'sunny' => checks if weather is equal to sunny.
 
 ## Question 5
 
@@ -52,15 +63,22 @@ What are the values of these expressions?  Explain your answers.
 //We'll learn about require later in the course
 const ask = require('../lib/ask.js');
 
-let answer = 'not empty';
+let answer = 0;
+answer = ask("Guess my secret? ");
 
-while (answer !== '') {
-  answer = ask("Guess my secret? ");
-  if (answer === 'SeCrEt') {
-   console.log("You guessed it!");
-   break;
+if( answer < 1 && answer > 10 )
+{
+  console.log( "Guess needs to be between 1 and 10" )
+}
+else {
+  while ( answer >= 0 && answer <= 10 )
+  {
+      console.log( "You guessed it!" );
+      break;
+    }
   }
 }
+
 ```
 
 Change the code from this question so that it tests for a number of your choice
