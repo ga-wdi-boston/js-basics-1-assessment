@@ -9,6 +9,14 @@ Assume all code executes in strict mode.
 
 Please list the JavaScript primitives and give one example of each.
 
+number: 1
+string: 'this is a string'
+boolean: true
+undefined: var a;
+null: null;
+symbol: Symbol();
+
+
 ## Question 2
 
 ```js
@@ -19,7 +27,9 @@ c = c + d;
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
-
+c == 7;
+The '=' sign assigns the value on the right hand side to the variable name on the left.
+The '+' operator performs addition.
 
 ## Question 3
 
@@ -33,7 +43,14 @@ y = 10;
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
 <!-- solution below -->
-
+let x = 4;
+(x == 4, y == undefined)
+let y = 3;
+(x == 4, y == 3)
+x = y;
+(x == 3, y == 3)
+y = 10;
+(x == 3, y == 10)
 
 ## Question 4
 
@@ -44,8 +61,12 @@ weather === "sunny";
 ```
 
 What are the values of these expressions?  Explain your answers.
-
-
+'let weather' is undefined.  Variable declarations  do not
+return a value.
+'weather = "sunny"' is equal to "sunny".  Variable assignments return the
+assigned value.
+'weather === "sunny"' is true.  The '===' evaluates to a boolean expression.
+It is true because we assigned the string value "sunny" to the variable 'weather'.
 ## Question 5
 
 ```js
@@ -56,7 +77,10 @@ let answer = 'not empty';
 
 while (answer !== '') {
   answer = ask("Guess my secret? ");
-  if (answer === 'SeCrEt') {
+  if(answer <= 1 || answer => 10){
+    console.log('You guess needs to be between 1 and 10')
+  }
+  if (answer === 4) {
    console.log("You guessed it!");
    break;
   }
