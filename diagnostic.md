@@ -79,7 +79,7 @@ while (answer !== '') {
      console.log('Guess again.');
    }
    break;
-  }
+ };
 }
 ```
 
