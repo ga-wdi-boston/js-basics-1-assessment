@@ -1,19 +1,20 @@
 'use strict';
 
-## Question 5
 
 
 //We'll learn about require later in the course
 const ask = require('../lib/ask.js');
 
-let answer = 'not empty';
+let answer = NaN;
 
-while (answer !== '') {
-  answer = ask("Guess my secret? ");
-  if (answer >=1 && answer <=10) {
-   console.log("You guessed it!");
-   break;
- }else{
+while (answer !== NaN) {
+  answer = +(ask("Guess the number? "));
+  if (answer > 10 || answer < 1) {
    console.log('Please try a number between 1 and 10');
+ } else if (answer === 7){
+   console.log('You guessed it!');
+   break;
+ } else {
+   console.log("You're getting close...");
  }
 }
