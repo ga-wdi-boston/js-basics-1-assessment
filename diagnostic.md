@@ -8,6 +8,11 @@ Assume all code executes in strict mode.
 ## Question 1
 
 Please list the JavaScript primitives and give one example of each.
+```
+string: "foo"
+number: NaN
+boolean: false
+```
 
 ## Question 2
 
@@ -19,7 +24,9 @@ c = c + d;
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
-
+```
+The final value of c is 7. c = c + 5 means: assign to variable c, the current value of c (5) and (+) the value of d (2)
+```
 
 ## Question 3
 
@@ -31,9 +38,13 @@ y = 10;
 ```
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
-
-<!-- solution below -->
-
+```
+1: x=4
+2: y=3
+3: x=3
+4: y=10
+The variable values change
+```
 
 ## Question 4
 
@@ -44,6 +55,11 @@ weather === "sunny";
 ```
 
 What are the values of these expressions?  Explain your answers.
+```
+1: weather declared but is undefined;
+2: weather assigned value of "sunny"
+3: true
+```
 
 
 ## Question 5
