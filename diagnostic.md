@@ -7,7 +7,11 @@ Assume all code executes in strict mode.
 
 ## Question 1
 
-Please list the JavaScript primitives and give one example of each.
+boolean: t or f
+null: null
+undefined: undefined
+string symbol: "Madlyn"
+integer: 16
 
 ## Question 2
 
@@ -19,7 +23,8 @@ c = c + d;
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
-
+7
+= +
 
 ## Question 3
 
@@ -32,8 +37,11 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- solution below -->
-
+x=4
+y=3
+x=3
+y=10
+the variables do not change; their values do change.
 
 ## Question 4
 
@@ -44,7 +52,8 @@ weather === "sunny";
 ```
 
 What are the values of these expressions?  Explain your answers.
-
+1. weather is a variable with the string "sunny" assigned to it
+2. weather is assigned a value of "sunny" and the variable weather is defined as a string data type.
 
 ## Question 5
 
