@@ -82,7 +82,12 @@ while (answer !== '') {
    break;
   }
 }
+
+let answer= prompt("What is your number?");
+
 ```
+Not sure where to start answering or how... will ask for help tomorrow. 
+
 
 Change the code from this question so that it tests for a number of your choice
 between 1 and 10 instead of the string `'SeCrEt'`.  If `answer` isn't >= 1 and
