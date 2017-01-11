@@ -9,6 +9,13 @@ Assume all code executes in strict mode.
 
 Please list the JavaScript primitives and give one example of each.
 
+1. number, 1
+2. string, "name"
+3. undefined, let one; one is not defined since no values are assigned.
+4. NaN, undefine+1
+5. null, empty
+6. boolean, true/false
+
 ## Question 2
 
 ```js
@@ -20,6 +27,7 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
+The value of c is 7. The addition operator, +, adds both side together, and the assignment operator, =, assigns a value to its left operand based on the value of its right operand
 
 ## Question 3
 
@@ -33,6 +41,7 @@ y = 10;
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
 <!-- solution below -->
+x becomes 3, and y becomes 10. Variables change, but their values which are primitives don't change.
 
 
 ## Question 4
@@ -44,7 +53,8 @@ weather === "sunny";
 ```
 
 What are the values of these expressions?  Explain your answers.
-
+"sunny" because it assigns the string "sunny" to te variable weather.
+true because the value that variable weather points to is "sunny" and with the comparison operator, ===, it results in true.
 
 ## Question 5
 
@@ -52,13 +62,13 @@ What are the values of these expressions?  Explain your answers.
 //We'll learn about require later in the course
 const ask = require('../lib/ask.js');
 
-let answer = 'not empty';
+let answer = 1;
 
-while (answer !== '') {
-  answer = ask("Guess my secret? ");
-  if (answer === 'SeCrEt') {
-   console.log("You guessed it!");
-   break;
+while (answer !== 1) {
+
+  answer = ask("Guess my number.");
+  if (answer<1 && answer>10){}
+  console.log("The number is within 1 to 10");
   }
 }
 ```
