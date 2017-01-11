@@ -8,7 +8,11 @@ Assume all code executes in strict mode.
 ## Question 1
 
 Please list the JavaScript primitives and give one example of each.
-
+1. boolean. eg: true and false
+2. string. eg: ''
+3. number. eg: 0
+4. null
+5. undefined
 ## Question 2
 
 ```js
@@ -20,6 +24,7 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
+7. opperation '=' is assign operation, we should execute the right expression first. '+' is a binary operation combining the value of c and d, which are 5 and 2 equal to 7. Then, assign to c. The variable c has a new value of 7.
 
 ## Question 3
 
@@ -33,7 +38,9 @@ y = 10;
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
 <!-- solution below -->
-
+After the first line of code executes, x=3 and y = 3.
+After the second line of code executes, x=3 and y =10.
+The variables do not change. They are still x and y. But the value of the variables change.
 
 ## Question 4
 
@@ -44,7 +51,7 @@ weather === "sunny";
 ```
 
 What are the values of these expressions?  Explain your answers.
-
+The value of these expressions is true. The first line create variable weather, then the second line assign the value, 'sunny' to weather. The last line compare the value of the variable to the string, 'sunny'. They are the same, therefore it should return true.
 
 ## Question 5
 
@@ -56,10 +63,14 @@ let answer = 'not empty';
 
 while (answer !== '') {
   answer = ask("Guess my secret? ");
-  if (answer === 'SeCrEt') {
+  if (answer === '2' ) {
    console.log("You guessed it!");
    break;
-  }
+ } else if (answer <1 || answer>10){
+   console.log('Your guess needs to between 1 to 10!');
+ }else{
+   console.log('Try again!');
+ }
 }
 ```
 
