@@ -8,6 +8,11 @@ Assume all code executes in strict mode.
 ## Question 1
 
 Please list the JavaScript primitives and give one example of each.
+number -> 1
+string -> 'hello'
+Boolean -> true, false
+null
+undefined
 
 ## Question 2
 
@@ -19,6 +24,9 @@ c = c + d;
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
+
+after the code executes, c === 7
+the operators are: + (adds c and d), and = (assigns c+d to c)
 
 
 ## Question 3
@@ -33,7 +41,7 @@ y = 10;
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
 <!-- solution below -->
-
+x becomes 3, and y becomes 10. Both variables change when we tell them to because they're not constants, but they have primitive types and are therefore immutable.
 
 ## Question 4
 
@@ -44,7 +52,8 @@ weather === "sunny";
 ```
 
 What are the values of these expressions?  Explain your answers.
-
+the value of `weather = "sunny"` is 'sunny' because we assigned the string 'sunny' to the variable weather.
+the value of weather === "sunny" is true because the operative `===` makes a comparison, and because the computer points the value 'sunny' to the variable weather, the two are equal and the statement is true.
 
 ## Question 5
 
