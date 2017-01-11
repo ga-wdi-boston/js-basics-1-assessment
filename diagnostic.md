@@ -9,6 +9,8 @@ Assume all code executes in strict mode.
 
 Please list the JavaScript primitives and give one example of each.
 
+Number: 5 String: 'this is a non empty string' Boolean: true === true
+Null: var foo = null Undefined: x = undefined
 ## Question 2
 
 ```js
@@ -20,6 +22,7 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
+The value of c I believe should be 7 when the expression results. The operators in this are the addition sign and the assignment sign. The addition sign combines two primitives, and the assignment sign assigns value to a variable. 
 
 ## Question 3
 
