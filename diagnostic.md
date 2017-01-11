@@ -8,6 +8,7 @@ Assume all code executes in strict mode.
 ## Question 1
 
 Please list the JavaScript primitives and give one example of each.
+Number, String, Boolean, Null, Undifined
 
 ## Question 2
 
@@ -19,7 +20,7 @@ c = c + d;
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
-
+In first two lines we declare a variable that c point to 5 and d pint to 2, In last line as we javascript reads from right to left it adds the values of c and d which is 7 and points c one more time to 7.
 
 ## Question 3
 
@@ -33,6 +34,7 @@ y = 10;
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
 <!-- solution below -->
+x points 3 and y points 10 . Variables don't change but the point that they adress to changes.
 
 
 ## Question 4
@@ -44,7 +46,9 @@ weather === "sunny";
 ```
 
 What are the values of these expressions?  Explain your answers.
-
+first we declare a variable,
+second we adress it to a value whic is a string
+finally we compare the value of the weather with "sunny string"
 
 ## Question 5
 
