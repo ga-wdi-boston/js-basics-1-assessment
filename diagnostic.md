@@ -68,7 +68,7 @@ while (answer !== '5') {
  } else {
    console.log('I will give you a hint. It is between 1 and 10');
  }
-}
+};
 ```
 
 Change the code from this question so that it tests for a number of your choice
