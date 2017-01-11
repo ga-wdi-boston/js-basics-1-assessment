@@ -9,6 +9,8 @@ Assume all code executes in strict mode.
 
 Please list the JavaScript primitives and give one example of each.
 
+Number: 5 String: 'this is a non empty string' Boolean: true === true
+Null: var foo = null Undefined: x = undefined
 ## Question 2
 
 ```js
@@ -20,6 +22,7 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
+The value of c I believe should be 7 when the expression results. The operators in this are the addition sign and the assignment sign. The addition sign combines two primitives, and the assignment sign assigns value to a variable.
 
 ## Question 3
 
@@ -32,7 +35,7 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- solution below -->
+first line x = 4 second line y=3 third line they both equal 3 fourth line y =10 and x=3
 
 
 ## Question 4
@@ -44,7 +47,7 @@ weather === "sunny";
 ```
 
 What are the values of these expressions?  Explain your answers.
-
+The first line weather has been assigned sunny. The second line is asking if they're equal, which currently they're.
 
 ## Question 5
 
@@ -56,9 +59,13 @@ let answer = 'not empty';
 
 while (answer !== '') {
   answer = ask("Guess my secret? ");
-  if (answer === 'SeCrEt') {
+  if (answer === 1 >= 10) {
    console.log("You guessed it!");
    break;
+  }
+  else if (answer !== 1 >= 10){
+    console.log('Guess needs to be between 1 and 10');
+    break;
   }
 }
 ```
