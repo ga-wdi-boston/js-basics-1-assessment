@@ -9,6 +9,9 @@ Assume all code executes in strict mode.
 
 Please list the JavaScript primitives and give one example of each.
 
+Number(e.g. 3), String(e.g. "Hello"), Boolean(e.g. true),
+null(e.g. null), undefined(e.g. undefined)
+
 ## Question 2
 
 ```js
@@ -20,6 +23,7 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
+Value of c is 7. The operators are (+) and (=). (+) is an addition operator that adds the two number values together. (=) is an assignment operator that assigns a new value to the variable on the left.
 
 ## Question 3
 
@@ -32,7 +36,7 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- solution below -->
+New values x = 3 and y = 10. The variables stay the same but their values change because of reassignment.
 
 
 ## Question 4
@@ -45,6 +49,9 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
+undefined (A variable has been delared but no value as been assigned)
+"sunny" (This is variable assignment)
+true (Shows that equality is true)
 
 ## Question 5
 
@@ -55,10 +62,14 @@ const ask = require('../lib/ask.js');
 let answer = 'not empty';
 
 while (answer !== '') {
-  answer = ask("Guess my secret? ");
-  if (answer === 'SeCrEt') {
-   console.log("You guessed it!");
+  answer = ask("Type a number between 1 and 10.");
+  if (answer >= 1 && answer <= 10) {
+   console.log("Correct!");
    break;
+  }
+  else {
+    console.log("Your number needs to be between 1 and 10!");
+    break;
   }
 }
 ```
