@@ -18,8 +18,8 @@ clarity. Additionally, you should mention the resources you used to help you
 complete this assessment. For example:
 
 ```md
-Comfort: 3
-Clarity: 3
+Comfort: 5
+Clarity: 5
 
 I used Google and my class notes to help with this assessment.
 ```
