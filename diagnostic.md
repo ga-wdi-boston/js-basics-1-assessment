@@ -7,7 +7,11 @@ Assume all code executes in strict mode.
 
 ## Question 1
 
-Please list the JavaScript primitives and give one example of each.
+undefined: child = undefined
+null: empty object = null
+boolean: var x = false;
+string:  var x="John"+"Smith";
+number: var x = 43;
 
 ## Question 2
 
@@ -20,6 +24,7 @@ c = c + d;
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
+-The value of c is 7. We add the first values of c+d, which is 7, new value assigned to c.
 
 ## Question 3
 
@@ -32,8 +37,7 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- solution below -->
-
+- The new value of x=3; new value of y=10. When it comes to numbers, they can leave their last value and convert as the circumstances make them change the values. From right to left, x becomes 3 and only after that, y is 10, not affecting the past value of x.
 
 ## Question 4
 
@@ -43,8 +47,9 @@ weather = "sunny";
 weather === "sunny";
 ```
 
-What are the values of these expressions?  Explain your answers.
-
+== means equal value and === means equal value and equal type. Therefore, === is more specific.
+weather = "sunny" is true, but
+weather=== "sunny" is false, they are not the same thing.
 
 ## Question 5
 
