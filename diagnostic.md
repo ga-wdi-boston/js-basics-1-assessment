@@ -5,17 +5,21 @@ question 5 which should be saved in the file `bin/diagnostic.js`.
 
 Assume all code executes in strict mode.
 
-## Question 1
+'use strict';
 
 Please list the JavaScript primitives and give one example of each.
 
-## Question 2
+There are five types: undefined (ex: undefined), null (ex: null), boolean
+(ex: true or false), string (ex: 'Lauren'), and number (ex: 37).
 
 ```js
 let c = 5;
 let d = 2;
-c = c + d;
+7 = 5 + 2;
 
+On the right side of equation, c evaluates to 5 and d evaluates to 2. Then they
+are added (wiht the addition operator), and c reeavaluates (or is it better to
+say: "is redefined as"?) to 7 and is now stored on the left side of the equation.
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
@@ -33,6 +37,14 @@ y = 10;
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
 <!-- solution below -->
+```js
+let x = 4; //the value of x is defined as 4
+let y = 3; //the value of y is defined as 3
+x = y;  //now x reevalutes to y, which is 3
+y = 10; // the value of y is now redefined as 10
+
+I believe the second part of the answer is: the variables x and y do not change, but their values do.
+```
 
 
 ## Question 4
@@ -45,6 +57,9 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
+In the first line, the value of weather is `undefined`.
+In the second line, the value is the string "sunny".
+In the third line, the value is the boolean value `true`, because weather is exactly identical to "sunny".
 
 ## Question 5
 
@@ -62,6 +77,8 @@ while (answer !== '') {
   }
 }
 ```
+
+I ran out of time for this question!
 
 Change the code from this question so that it tests for a number of your choice
 between 1 and 10 instead of the string `'SeCrEt'`.  If `answer` isn't >= 1 and
