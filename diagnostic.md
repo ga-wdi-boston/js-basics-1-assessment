@@ -9,6 +9,13 @@ Assume all code executes in strict mode.
 
 Please list the JavaScript primitives and give one example of each.
 
+String - "example"
+Number - 12
+Boolean - True or false
+Symbol - ([description])
+
+source: MDN
+
 ## Question 2
 
 ```js
@@ -19,6 +26,8 @@ c = c + d;
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
+
+The value of C = 7. We read this code from right to left, meaning that 'c + d' assignes the value to 'c'. 5 + 2 equates to 7, thus c = 7.
 
 
 ## Question 3
@@ -33,7 +42,7 @@ y = 10;
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
 <!-- solution below -->
-
+After x = y, x equates to 3 because 'y' assignes a new value to it. 'y' to equal to 10 in the final line of code, because we're reading from right to left. There is no carryover in variable values from line to line.
 
 ## Question 4
 
@@ -42,8 +51,10 @@ let weather;
 weather = "sunny";
 weather === "sunny";
 ```
-
 What are the values of these expressions?  Explain your answers.
+
+'=' is simple assignment order, assigning values from right to left, thus "sunny" = weather
+'===' indicates strict equality, thus weather can only === "sunny"
 
 
 ## Question 5
