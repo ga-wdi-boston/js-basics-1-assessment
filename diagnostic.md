@@ -9,6 +9,11 @@ Assume all code executes in strict mode.
 
 Please list the JavaScript primitives and give one example of each.
 
+number: 1
+String: 'Herb'
+boolean: true, false
+null: null
+undefined: undefined
 ## Question 2
 
 ```js
@@ -16,6 +21,9 @@ let c = 5;
 let d = 2;
 c = c + d;
 
+7
+
+The values of c and d are added together, then assigned to c.
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
@@ -29,7 +37,9 @@ let y = 3;
 x = y;
 y = 10;
 ```
-
+x is still 4.
+y is 10.
+x is only pointing to y.
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
 <!-- solution below -->
@@ -42,7 +52,8 @@ let weather;
 weather = "sunny";
 weather === "sunny";
 ```
-
+The = operator assigns the String "sunny" to weather.
+The === operator compares weather and the String "sunny" and returns a boolean value.
 What are the values of these expressions?  Explain your answers.
 
 
@@ -56,9 +67,12 @@ let answer = 'not empty';
 
 while (answer !== '') {
   answer = ask("Guess my secret? ");
-  if (answer === 'SeCrEt') {
+  if (1 <= answer <= 10) {
    console.log("You guessed it!");
    break;
+  }
+  else {
+    console.log("The guess needs to be between 1 and 10. Sorry, try again!");
   }
 }
 ```
