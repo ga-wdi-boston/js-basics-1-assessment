@@ -8,6 +8,16 @@ Assume all code executes in strict mode.
 ## Question 1
 
 Please list the JavaScript primitives and give one example of each.
+1. Number  6
+2. String   "Nishon"
+3. Boolean   True
+4. Undefined   means a variable has been declared but has not yet been assigned a value
+5. Null
+
+"foo" is string,
+true is boolean ,
+1234 is number,
+null is undefined.
 
 ## Question 2
 
@@ -16,10 +26,13 @@ let c = 5;
 let d = 2;
 c = c + d;
 
+
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
 
+Value of c is 7
+7 = 5 + 2
 
 ## Question 3
 
@@ -33,7 +46,10 @@ y = 10;
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
 <!-- solution below -->
+x=4
+y=3
 
+10 is reassigned to the value Y
 
 ## Question 4
 
@@ -44,6 +60,11 @@ weather === "sunny";
 ```
 
 What are the values of these expressions?  Explain your answers.
+
+weather = "sunny"; This assigns "sunny" to weather
+
+weather === "sunny"; This is saying/asking if it is the same in both
+value and type. Essentially identical. so FALSE
 
 
 ## Question 5
@@ -61,7 +82,7 @@ while (answer !== '') {
    break;
   }
 }
-```
+``
 
 Change the code from this question so that it tests for a number of your choice
 between 1 and 10 instead of the string `'SeCrEt'`.  If `answer` isn't >= 1 and
