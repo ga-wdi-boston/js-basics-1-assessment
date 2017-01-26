@@ -9,6 +9,12 @@ Assume all code executes in strict mode.
 
 Please list the JavaScript primitives and give one example of each.
 
+Number - 1
+String - 'Hi'
+Boolean - True
+Null - null
+Undefined - undefined
+
 ## Question 2
 
 ```js
@@ -18,7 +24,11 @@ c = c + d;
 
 ```
 
-After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
+After this code executes, what is the value of c?  Please identify the operators in the last line of this program
+`c = c + d;` and explain what they do.
+
+C equals 7 after the code executes. There are two operators in the last line, '=' and '+'.  = Assigns the result of
+'c + d' to the variable, c.  The '+' adds the value of assigned to d to the value assigned to c.
 
 
 ## Question 3
@@ -32,7 +42,8 @@ y = 10;
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- solution below -->
+After the code executes, x = 3 and y = 10.  The variables don't change, they are still x and y, but their values both
+have changed.
 
 
 ## Question 4
@@ -45,6 +56,10 @@ weather === "sunny";
 
 What are the values of these expressions?  Explain your answers.
 
+The value of the first line is undefined, it just establishes that the variable weather now exists.  After the second
+line, the value of weather equals the string 'sunny'.  The value of the third line is true.  Weather = 'sunny' and the
+expression 'sunny' === 'sunny' is true.
+
 
 ## Question 5
 
@@ -55,10 +70,13 @@ const ask = require('../lib/ask.js');
 let answer = 'not empty';
 
 while (answer !== '') {
-  answer = ask("Guess my secret? ");
-  if (answer === 'SeCrEt') {
-   console.log("You guessed it!");
+  answer = ask("Name a number between 1 and 10:  ");
+  if (answer >= 1 && answer <= 10) {
+   console.log("Thanks!");
    break;
+ }
+  else {
+    console.log("Sorry, that is not a number between 1 and 10.  Try again.");
   }
 }
 ```
