@@ -9,6 +9,12 @@ Assume all code executes in strict mode.
 
 Please list the JavaScript primitives and give one example of each.
 
+1.NaN - banana
+2.Boolean - true
+3.Undefined - something that has yet to be defined
+4.String - 'banana'
+5.Number - 5
+
 ## Question 2
 
 ```js
@@ -20,7 +26,7 @@ c = c + d
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d` and explain what they do.
 
-
+7
 ## Question 3
 
 ```js
@@ -32,7 +38,7 @@ y = 10
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- solution below -->
+x = 3 , y = 10 The varibles do not change but the values do.
 
 
 ## Question 4
