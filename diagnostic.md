@@ -26,6 +26,7 @@ c = c + d
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d` and explain what they do.
 
+C=7. The operators are the equal sign (=) and the plus sign (+). The plus sign adds the values of c and d together. The equal sign assigns the result of that operation to the variable c.
 
 ## Question 3
 
