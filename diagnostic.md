@@ -9,16 +9,24 @@ Assume all code executes in strict mode.
 
 Please list the JavaScript primitives and give one example of each.
 
+String: let variable = "string"
+number: let variable = 2
+null: let variable = ""
+undefined: let variable
+
+
 ## Question 2
 
 ```js
 let c = 5
 let d = 2
 c = c + d
-
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d` and explain what they do.
+
+c = 7
+the expression on the right is evaluated before the "=" assignement
 
 
 ## Question 3
@@ -32,8 +40,10 @@ y = 10
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- solution below -->
+variable do not change, their values change through reassignment.
 
+x = 3
+y = 10
 
 ## Question 4
 
@@ -45,6 +55,7 @@ weather === "sunny"
 
 What do these expressions evaluate to?  Explain your answers.
 
+true ; because weather holds the value "sunny", and truthy and truthy is a true
 
 ## Question 5
 
