@@ -9,6 +9,13 @@ Assume all code executes in strict mode.
 
 Please list the JavaScript primitives and give one example of each.
 
+<!-- solution below -->
+Number - 1
+String - 'hello'
+Boolean - true
+null - null
+undefined - undefined
+
 ## Question 2
 
 ```js
@@ -20,6 +27,9 @@ c = c + d
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d` and explain what they do.
 
+<!-- solution below -->
+c === 7
+The operators are = and +. + adds the two values together. = assigns the resulting value to variable c.
 
 ## Question 3
 
@@ -33,7 +43,9 @@ y = 10
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
 <!-- solution below -->
-
+x === 3
+y === 10
+The values of the variables change, The variables themselves do not.
 
 ## Question 4
 
@@ -45,6 +57,10 @@ weather === "sunny"
 
 What do these expressions evaluate to?  Explain your answers.
 
+<!-- solution below -->
+weather === "sunny" evaluates to true, because the value of "sunny" was assigned
+to the weather variable in the prior line. weather === "sunny" is a check for
+equality. Since both values are the same, the expression returns true.
 
 ## Question 5
 
@@ -56,10 +72,12 @@ let answer = 'not empty'
 
 while (answer !== '') {
   answer = ask("Guess my secret? ")
-  if (answer === 'SeCrEt') {
+  if (answer === '7') {
    console.log("You guessed it!")
    break
-  }
+ } else if (answer < 1 || answer > 10) {
+   console.log("Number must be between 1 and 10")
+ }
 }
 ```
 
