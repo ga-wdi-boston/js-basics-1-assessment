@@ -9,17 +9,26 @@ Assume all code executes in strict mode.
 
 Please list the JavaScript primitives and give one example of each.
 
+String = 'text of some kind'
+Numbers = 0,NaN
+boolean = true false
+null = null
+undefined - undefined
+
 ## Question 2
 
 ```js
-let c = 5
-let d = 2
+let c = 5 `creates a variable c with value 5`
+let d = 2 'creates a variable d with value 2'
 c = c + d
 
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d` and explain what they do.
 
+"=" is telling JS that c is goign to assigned a new value
+"+" is adding c and d together, b/c they are both numbers. it would be WAT momment if one was a string and the other a number
+c will equal 7 once the code runs
 
 ## Question 3
 
@@ -32,8 +41,11 @@ y = 10
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- solution below -->
+After the code runs:
+x === 4
+y === 10
 
+I don't think the variables change, just the valuse stored in them
 
 ## Question 4
 
@@ -45,6 +57,8 @@ weather === "sunny"
 
 What do these expressions evaluate to?  Explain your answers.
 
+true b/c === is an "evaluation" to test if the variable weather
+is set to 'sunny'
 
 ## Question 5
 
