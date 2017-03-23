@@ -45,12 +45,16 @@ x=3 and y=10. The values of x and y change. I'm not sure what the question "do t
 ## Question 4
 
 ```js
-let weather
-weather = "sunny"
-weather === "sunny"
+1. let weather
+2. weather = "sunny"
+3. weather === "sunny"
 ```
 
 What do these expressions evaluate to?  Explain your answers.
+
+1. undefined - a. the expression "let weather" itself regardless of value assignment would evaluate to undefined by the console. b. no value was assigned to the variable weather.
+2. 'sunny' - the equal sign is the operator that assigns value. This expression is assigning the value of "sunny" to the variable "weather". The console returns "sunny".
+3. true - since the variable "weather" holds/represents the value "sunny" the variable "weather" is equal to the literal "sunny". === is the logical comparison operator that evaluates whether or not two arguments are equal to each other.
 
 
 ## Question 5
