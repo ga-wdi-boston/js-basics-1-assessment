@@ -1,5 +1,5 @@
 'use strict'
-
+// Modify to guess the number
 const ask = require('../lib/ask.js')
 
 let answer = 'not empty'
