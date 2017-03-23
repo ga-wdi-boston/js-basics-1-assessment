@@ -30,7 +30,7 @@ The value of c is 7.
 
 = is an operator. It will give the variable c a value of c + d.
 
-+ is an operator. It will provide the sum of c and d.
+The addition sign (+) is an operator. It will provide the sum of c and d.
 
 ## Question 3
 
