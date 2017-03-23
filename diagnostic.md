@@ -8,6 +8,12 @@ Assume all code executes in strict mode.
 ## Question 1
 
 Please list the JavaScript primitives and give one example of each.
+Not a number
+Number
+String
+Boolean
+Null
+Undefined
 
 ## Question 2
 
