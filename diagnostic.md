@@ -40,7 +40,7 @@ y = 10
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
 <!-- solution below -->
-
+x=3 and y=10. The values of x and y change. I'm not sure what the question "do the variables change" means.
 
 ## Question 4
 
