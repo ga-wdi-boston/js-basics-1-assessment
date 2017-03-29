@@ -8,6 +8,11 @@ Assume all code executes in strict mode.
 ## Question 1
 
 Please list the JavaScript primitives and give one example of each.
+string - 'apple'
+number - 5
+boolean - true
+null - null
+undefined - undefined
 
 ## Question 2
 
@@ -19,6 +24,8 @@ c = c + d
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d` and explain what they do.
+
+This assigns a different value to c. It makes the value the addition of c and d.
 
 
 ## Question 3
@@ -33,6 +40,9 @@ y = 10
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
 <!-- solution below -->
+x = y
+y = 10
+The variables do not change but their values do. The code above simply reassigns the values of x and y each time.
 
 
 ## Question 4
@@ -45,6 +55,10 @@ weather === "sunny"
 
 What do these expressions evaluate to?  Explain your answers.
 
+let weather will show up as 'undefined' because it is simply announcing the variable, but does not define it.
+weather = "sunny" assigns a value to the variable (being sunny) because of the '=' sign.
+weather === "sunny" will state that the boolean value of the variable is true because of the "===".
+
 
 ## Question 5
 
@@ -52,14 +66,16 @@ What do these expressions evaluate to?  Explain your answers.
 //We'll learn about require later in the course
 const ask = require('../lib/ask.js')
 
-let answer = 'not empty'
+let answer = ' '
 
-while (answer !== '') {
-  answer = ask("Guess my secret? ")
-  if (answer === 'SeCrEt') {
-   console.log("You guessed it!")
-   break
+while (answer !== '7') {
+  if (answer < 1 || answer > 10) {
+    console.log('Guess a number between 1 and 10')
+  } else if (answer !== ' ') {
+    console.log('Guess again!')
   }
+  answer = ask("Guess my secret? ") {
+   } console.log("You guessed it!")
 }
 ```
 
