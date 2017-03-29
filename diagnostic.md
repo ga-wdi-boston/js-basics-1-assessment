@@ -8,6 +8,12 @@ Assume all code executes in strict mode.
 ## Question 1
 
 Please list the JavaScript primitives and give one example of each.
+the primitives are:
+-strings | ex: "hi"
+-numbers | ex: 8
+-booleans| ex: true
+-null    | ex: null
+-undefined | ex: undefined
 
 ## Question 2
 
@@ -19,7 +25,9 @@ c = c + d
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d` and explain what they do.
-
+c would equal 7. In the line c = c+d everything to the right of "c=" would first be
+evaluated. Since we assigned a value to the variables c(which is 5) and d(which is 2)
+it would now look like: c = 5 + 2. We would then add 5 and 2 to get 7 after which javascript would then assign to c
 
 ## Question 3
 
@@ -33,7 +41,7 @@ y = 10
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
 <!-- solution below -->
-
+x would now equal 3, y would now equal 10
 
 ## Question 4
 
@@ -44,7 +52,10 @@ weather === "sunny"
 ```
 
 What do these expressions evaluate to?  Explain your answers.
-
+This would evaluate to true. A single equal sign assigns the value to a variable.
+In this case the string "sunny" was assigned to the variable weather. A triple equal
+sign checks to see if the two are equal. In the line after it is checking to see
+if the variable(which holds the string "sunny") equals "sunny" which is true
 
 ## Question 5
 
@@ -56,9 +67,12 @@ let answer = 'not empty'
 
 while (answer !== '') {
   answer = ask("Guess my secret? ")
-  if (answer === 'SeCrEt') {
+  if (answer >= 1 && answer <= 10) {
    console.log("You guessed it!")
    break
+  }
+  else {
+    console.log("The guess needs to be between 1 and 10")
   }
 }
 ```
