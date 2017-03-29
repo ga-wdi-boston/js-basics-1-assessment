@@ -8,6 +8,11 @@ Assume all code executes in strict mode.
 ## Question 1
 
 Please list the JavaScript primitives and give one example of each.
+numbers: 5
+string: 'maggie'
+boolean: true
+undefined: undefined
+null: null
 
 ## Question 2
 
@@ -20,6 +25,7 @@ c = c + d
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d` and explain what they do.
 
+after the code executes c equals 7.  the = is an assignment operator and sets c equal to the sum of c and d.  it this case + is used to sum numbers, although it can also be used for concatenation.
 
 ## Question 3
 
@@ -33,7 +39,12 @@ y = 10
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
 <!-- solution below -->
+first x equals 4
+and y equals 3
+then x equls 3(the value of y)
+then y equals 10, and x still equals 3
 
+The values of the variable change, the varibles themselves do not
 
 ## Question 4
 
@@ -45,6 +56,9 @@ weather === "sunny"
 
 What do these expressions evaluate to?  Explain your answers.
 
+first we declare a variable, weather.
+Next we assignment the variable weather the string value of 'sunny'.
+The last statement evalutes to true. It is an equivalency test and it is true that "sunny" is the same as "sunny"
 
 ## Question 5
 
@@ -55,8 +69,11 @@ const ask = require('../lib/ask.js')
 let answer = 'not empty'
 
 while (answer !== '') {
-  answer = ask("Guess my secret? ")
-  if (answer === 'SeCrEt') {
+  answer = ask("Guess the number, between 1 - 10 inclusive")
+  if(answer<1 || answer>10){
+    console.log("Invalid, Please guess a number between 1 and 10")
+  }
+  if (answer === '3') {
    console.log("You guessed it!")
    break
   }
