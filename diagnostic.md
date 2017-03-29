@@ -8,6 +8,11 @@ Assume all code executes in strict mode.
 ## Question 1
 
 Please list the JavaScript primitives and give one example of each.
+"String" - "Dog"
+number - 7
+boolean - True
+undefined - undefined
+null - null
 
 ## Question 2
 
@@ -19,6 +24,9 @@ c = c + d
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d` and explain what they do.
+
+the = assignment operator it tells js to assign this value to a variable
+the + is arithmatic operator tells js to add two variable
 
 
 ## Question 3
@@ -33,6 +41,10 @@ y = 10
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
 <!-- solution below -->
+First line x = 4 the value of x is set by the = operator
+second line y = 3 the value of y is set by the = operator
+third line x = 3 it is changed to the y value
+fourth line y = 10 the value changes because of the assignmnet operator
 
 
 ## Question 4
@@ -44,7 +56,8 @@ weather === "sunny"
 ```
 
 What do these expressions evaluate to?  Explain your answers.
-
+var weather is now "sunny" by the assignmnet operator.
+second line will deliver false as this is a equality operator and the two are not the same.
 
 ## Question 5
 
