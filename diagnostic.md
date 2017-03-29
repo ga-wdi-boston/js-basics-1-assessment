@@ -8,7 +8,7 @@ Assume all code executes in strict mode.
 ## Question 1
 
 Please list the JavaScript primitives and give one example of each.
-
+The JS primitive types are numbers, strings, boolean, null, and undefined.
 ## Question 2
 
 ```js
@@ -19,7 +19,12 @@ c = c + d
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d` and explain what they do.
-
+First, the expression to the right of the assignment operator (the '=' sign) will execute: c + d which will be 5 + 2, resulting in 7
+Next, the expression that was executed (5 + 2) will be assigned to c, resulting in c now being assigned the new value of 7:
+  c + d
+  5 + 2
+  c = 5 + 7
+  c = 7
 
 ## Question 3
 
@@ -33,7 +38,7 @@ y = 10
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
 <!-- solution below -->
-
+variable x will newly have the value 3 assigned to it, and variable y will have the newly assigned value of 10 assigned to it. These values differ from what these variables were initially declared as because only the most recently assigned value will belong to that variable.
 
 ## Question 4
 
@@ -44,7 +49,8 @@ weather === "sunny"
 ```
 
 What do these expressions evaluate to?  Explain your answers.
-
+weather = "sunny" is assigning the value of the string "sunny" to the weather variable
+weather === "sunny" will evaluate to TRUE, because the expression is comparing the value stored in it to the string/value that is following the ===, which would result to either true or false, and in this case it it true because the value stored in weather is equal to "sunny".
 
 ## Question 5
 
@@ -55,11 +61,13 @@ const ask = require('../lib/ask.js')
 let answer = 'not empty'
 
 while (answer !== '') {
-  answer = ask("Guess my secret? ")
-  if (answer === 'SeCrEt') {
+  answer = ask("Guess a number from 1 to 10! ")
+  if (answer === '2') {
    console.log("You guessed it!")
-   break
-  }
+   //break
+ } else if (answer >= 1 || answer <= 10){
+   console.log("The guess needs to be between 1 and 10!")
+ }
 }
 ```
 
