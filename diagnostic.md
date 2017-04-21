@@ -8,6 +8,15 @@ Assume all code executes in strict mode.
 ## Question 1
 
 Please list the JavaScript primitives and give one example of each.
+JavaScript primitives:
+
+1. String -- ex) "Julie", "Huy", "Khun"
+                  var name = ("Julie", "Huy", "Khun")
+2. Number -- 1, 2.5
+3. Boolean -- true || false
+4. Null -- Null
+5. Undefined -- Undefined
+
 
 ## Question 2
 
@@ -19,6 +28,8 @@ c = c + d
 ```
 
 After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d` and explain what they do.
+
+After this code executes that value of c is 7. We are adding the sum of the values of variables c and d.
 
 
 ## Question 3
@@ -32,7 +43,11 @@ y = 10
 
 After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
 
-<!-- solution below -->
+After each line of code executes, the values of x and y are:
+x = 3
+y = 10
+
+The variables do not change but the values do.
 
 
 ## Question 4
@@ -44,6 +59,12 @@ weather === "sunny"
 ```
 
 What do these expressions evaluate to?  Explain your answers.
+
+The value of weather = "sunny" is "sunny"
+The value of weather === "sunny"; is false
+
+The value is "sunny" because we are declaring that the variable "weather" is "sunny"
+The value of weather === "sunny" is false because true === false therefore false
 
 
 ## Question 5
